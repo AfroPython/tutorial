@@ -19,7 +19,8 @@
     * [Exercite-se!](linha_de_comando/exercitando.md)
     * [Limpando](linha_de_comando/limpando.md)
     * [Resumo](linha_de_comando/resumo.md)
-* Porque precisamos de um editor de código?
+* [Editor de Código](editor_de_codigo/introducao.md)    
+  * [Porque precisamos de um editor de código?](necessidade.md)
 * Introdução ao Python
   * Interpretador Python
   * Seu primeiro comando Python
