@@ -20,12 +20,9 @@
     * [Limpando](linha_de_comando/limpando.md)
     * [Resumo](linha_de_comando/resumo.md)
 * [Editor de Código](editor_de_codigo/introducao.md)    
-  * [Porque precisamos de um editor de código?](necessidade.md)
-* Introdução ao Python
-  * Interpretador Python
-  * Seu primeiro comando Python
-  * Strings
-    * Resumo
+  * [Porque precisamos de um editor de código?](editor_de_codigo/necessidade.md)
+* [Introdução ao Python](python/introducao.md)
+  * [Strings](python/strings.md)
   * Erros
   * Variáveis
   * A função print
