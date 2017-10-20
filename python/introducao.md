@@ -28,4 +28,4 @@ Mas agora não queremos sair da linha de comando do Python. Queremos aprender ma
 
 Incrível! Vê como a resposta simplesmente aparece? O Python conhece matemática! Você pode tentar outros comandos como: - ``4 * 5`` - ``5 - 1`` - ``40 / 2``
 Divirta-se com isso por um tempo e depois volte aqui :).
-Como você pode ver, o Python é uma ótima calculadora. Se você está se perguntando o que mais você pode fazer...
+Como você pode ver, o Python é uma ótima calculadora. Se você está se perguntando o que mais você pode fazer... Vamos nos aprender um pouco mais?
