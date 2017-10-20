@@ -26,15 +26,15 @@
   * [Erros](python/erros.md)
   * [Variáveis](python/variaveis.md)
   * [A função print](python/funcao_print.md)
-  * Listas
-  * Dicionários
-    * Resumo
-  * Compare coisas
-  * Booleano
-* Salve o código!
-  * if...elif...else
-    * E se não?
-    * Resumo
+  * [Listas](python/listas.md)
+  * [Dicionários](python/dicionarios.md)
+  * [Resumo até agora](python/resumo_ate_agora.md)
+  * [Fazendo comparações](python/comparando.md)
+  * [Booleanos](python/booleanos.md)
+  * Salvando o código!
+    * if...elif...else
+      * E se não?
+      * Resumo
   * Suas próprias funções
   * Laços de repetição
   * Resumo
