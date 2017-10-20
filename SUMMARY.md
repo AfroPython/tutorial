@@ -23,9 +23,9 @@
   * [Porque precisamos de um editor de código?](editor_de_codigo/necessidade.md)
 * [Introdução ao Python](python/introducao.md)
   * [Strings](python/strings.md)
-  * Erros
-  * Variáveis
-  * A função print
+  * [Erros](python/erros.md)
+  * [Variáveis](python/variaveis.md)
+  * [A função print](python/funcao_print.md)
   * Listas
   * Dicionários
     * Resumo
