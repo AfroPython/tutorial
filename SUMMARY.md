@@ -19,7 +19,7 @@
     * [Exercite-se!](linha_de_comando/exercitando.md)
     * [Limpando](linha_de_comando/limpando.md)
     * [Resumo](linha_de_comando/resumo.md)
-* [Editor de Código](editor_de_codigo/introducao.md)    
+* [Editor de Código](editor_de_codigo/introducao.md)
   * [Porque precisamos de um editor de código?](editor_de_codigo/necessidade.md)
 * [Introdução ao Python](python/introducao.md)
   * [Strings](python/strings.md)
@@ -35,6 +35,6 @@
     * if...elif...else
       * E se não?
       * Resumo
-  * Suas próprias funções
+  *[Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
   * Laços de repetição
   * Resumo
