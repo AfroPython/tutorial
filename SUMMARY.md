@@ -34,7 +34,7 @@
   * Salvando o código!
     * if...elif...else
       * E se não?
-      * Resumo
+      * [Resumo](salve_o_codigo/resumo.md)
   *[Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
   * [Laços de repetição](salve_o_codigo/lacos.md)
   * Resumo
