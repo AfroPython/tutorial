@@ -36,5 +36,5 @@
       * E se não?
       * Resumo
   *[Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
-  * Laços de repetição
+  * [Laços de repetição](salve_o_codigo/lacos.md)
   * Resumo
