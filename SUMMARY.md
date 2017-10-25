@@ -19,7 +19,7 @@
     * [Exercite-se!](linha_de_comando/exercitando.md)
     * [Limpando](linha_de_comando/limpando.md)
     * [Resumo](linha_de_comando/resumo.md)
-* [Editor de Código](editor_de_codigo/introducao.md)    
+* [Editor de Código](editor_de_codigo/introducao.md)
   * [Porque precisamos de um editor de código?](necessidade.md)
 * Introdução ao Python
   * Interpretador Python
@@ -40,4 +40,4 @@
     * Resumo
   * Suas próprias funções
   * Laços de repetição
-  * Resumo
+  * [Resumo](salve_o_codigo/resumo-sessao.md)
