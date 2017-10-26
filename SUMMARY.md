@@ -35,9 +35,9 @@
   * Compare coisas
   * Booleano
 * Salve o código!
-  * if...elif...else
-    * E se não?
-    * Resumo
+  * [if...elif...else](salve_o_codigo/estruturas_condicionais.md)
+    * [E se não?](salve_o_codigo/e_se_nao.md)
+  * [Resumo](salve_o_codigo/resumo.md)
   * Suas próprias funções
   * Laços de repetição
   * Resumo
