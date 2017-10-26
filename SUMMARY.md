@@ -34,7 +34,7 @@
     * Resumo
   * Compare coisas
   * Booleano
-* Salve o código!
+* [Salve o código!](salve_o_codigo/intro.md)
   * if...elif...else
     * E se não?
     * Resumo
