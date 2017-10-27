@@ -41,3 +41,6 @@
   * Suas próprias funções
   * Laços de repetição
   * Resumo
+* [Django, o que é?](django/o_que_e.md)
+  * [Por que você precisa de um framework?](django/porque_um_framework.md)
+  * [O que acontece quando alguém solicita um site do seu servidor?](django/solicitando_o_site.md)
