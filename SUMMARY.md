@@ -38,3 +38,6 @@
   *[Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
   * [Laços de repetição](salve_o_codigo/lacos.md)
   * [Resumo](salve_o_codigo/resumo-sessao.md)
+* [Django, o que é?](django/o_que_e.md)
+  * [Por que você precisa de um framework?](django/porque_um_framework.md)
+  * [O que acontece quando alguém solicita um site do seu servidor?](django/solicitando_o_site.md)
