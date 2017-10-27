@@ -41,3 +41,5 @@
   * Suas próprias funções
   * Laços de repetição
   * Resumo
+* [Instalação do Django](django/instalacao_introducao.md)
+  * [Instalando...](django/instalacao.md)
