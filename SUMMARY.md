@@ -19,27 +19,27 @@
     * [Exercite-se!](linha_de_comando/exercitando.md)
     * [Limpando](linha_de_comando/limpando.md)
     * [Resumo](linha_de_comando/resumo.md)
-* [Editor de Código](editor_de_codigo/introducao.md)    
-  * [Porque precisamos de um editor de código?](necessidade.md)
-* Introdução ao Python
-  * Interpretador Python
-  * Seu primeiro comando Python
-  * Strings
-    * Resumo
-  * Erros
-  * Variáveis
-  * A função print
-  * Listas
-  * Dicionários
-    * Resumo
-  * Compare coisas
-  * Booleano
-* Salve o código!
-  * if...elif...else
-    * E se não?
-    * Resumo
-  * Suas próprias funções
-  * Laços de repetição
-  * Resumo
+* [Editor de Código](editor_de_codigo/introducao.md)
+  * [Porque precisamos de um editor de código?](editor_de_codigo/necessidade.md)
+* [Introdução ao Python](python/introducao.md)
+  * [Strings](python/strings.md)
+  * [Erros](python/erros.md)
+  * [Variáveis](python/variaveis.md)
+  * [A função print](python/funcao_print.md)
+  * [Listas](python/listas.md)
+  * [Dicionários](python/dicionarios.md)
+  * [Resumo até agora](python/resumo_ate_agora.md)
+  * [Fazendo comparações](python/comparando.md)
+  * [Booleanos](python/booleanos.md)
+  * [Salve o código!](salve_o_codigo/intro.md)
+    * [if...elif...else](salve_o_codigo/estruturas_condicionais.md)
+    * [E se não?](salve_o_codigo/e_se_nao.md)
+    * [Resumo](salve_o_codigo/resumo.md)
+  *[Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
+  * [Laços de repetição](salve_o_codigo/lacos.md)
+  * [Resumo](salve_o_codigo/resumo-sessao.md)
+* [Django, o que é?](django/o_que_e.md)
+  * [Por que você precisa de um framework?](django/porque_um_framework.md)
+  * [O que acontece quando alguém solicita um site do seu servidor?](django/solicitando_o_site.md)
 * [Instalação do Django](django/instalacao_introducao.md)
   * [Instalando...](django/instalacao.md)
