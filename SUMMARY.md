@@ -37,4 +37,4 @@
       * Resumo
   *[Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
   * [Laços de repetição](salve_o_codigo/lacos.md)
-  * Resumo
+  * [Resumo](salve_o_codigo/resumo-sessao.md)
