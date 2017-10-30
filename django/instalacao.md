@@ -25,4 +25,4 @@ Cleaning up…
  ```
  Esse comando serve para congelar as versões deles e garantir que no futuro conseguiremos rodar nosso projeto com as versões certas das coisas. Perceba que usamos um sinal de maior: `>`.
 
- É isso! Agora você está (finalmente) pronta para criar uma aplicação Django! :D
+ É isso! Agora você está (finalmente) pronta(o) para criar uma aplicação Django! :D

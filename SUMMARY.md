@@ -35,7 +35,7 @@
     * [if...elif...else](salve_o_codigo/estruturas_condicionais.md)
     * [E se não?](salve_o_codigo/e_se_nao.md)
     * [Resumo](salve_o_codigo/resumo.md)
-  *[Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
+  * [Suas próprias funções](salve_o_codigo/suas_proprias_funcoes.md)
   * [Laços de repetição](salve_o_codigo/lacos.md)
   * [Resumo](salve_o_codigo/resumo-sessao.md)
 * [Django, o que é?](django/o_que_e.md)
