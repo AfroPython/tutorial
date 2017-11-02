@@ -28,7 +28,7 @@ afropython
 
 Depois de criar um aplicativo também precisamos dizer ao Django que deve usá-lo. Fazemos isso no arquivo `mysite/settings.py`.
 
-Precisamos encontrar o `INSTALLED_APPS` e adicionar uma linha com `'blog'`, logo acima do ). É assim que a configuração deve ficar:
+Precisamos encontrar o `INSTALLED_APPS` e adicionar uma linha com `'blog'`, logo acima do `)`. É assim que a configuração deve ficar:
 
 ```
 INSTALLED_APPS = (
