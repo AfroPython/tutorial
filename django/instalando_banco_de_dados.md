@@ -17,14 +17,14 @@ DATABASES = {
 Para criar um banco de dados para o nosso blog, vamos fazer o seguinte no console. Digite:
 
 ```
-python manage.py migrate
+python3 manage.py migrate
 ```
 
 Precisamos estar no diretório que contém o arquivo `manage.py` dentro da pasta `afropython`.
 Se isso der certo, você deve ver algo como isto:
 
 ```
-~/afropython$ python manage.py migrate
+~/afropython$ python3 manage.py migrate
 Operations to perform:
   Apply all migrations: admin, contenttypes, auth, sessions
 Running migrations:
@@ -38,7 +38,7 @@ E está pronto! Hora de iniciar o servidor web e ver se nosso site está funcion
 
 Você precisa estar no diretório que contém o arquivo `manage.py` (no diretório afropython). No console, nós podemos iniciar o servidor web executando:
 ```
-~/afropython$ python manage.py runserver 0.0.0.0:8000
+~/afropython$ python3 manage.py runserver 0.0.0.0:8000
 ```
 
 Para acessar o site no navegador, utilize a primeira url que o codeanywhere mostra na página de informação, adicionando a porta 8000 no final da url:
