@@ -52,3 +52,4 @@
     * [Criando uma aplicação](django/modelos_criando_aplicacao.md)
     * [Criando um modelo](django/modelos_criando_modelo.md)
     * [Criando tabelas](django/modelos_criando_tabela.md)
+* [Administração](administracao.md)
