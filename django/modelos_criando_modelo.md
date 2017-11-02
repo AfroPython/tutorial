@@ -52,4 +52,4 @@ Você pode alterar, se quiser. A regra é que usamos letras minúsculas e sublin
 
 Métodos muitas vezes retornam algo, para isso usamos `return`. Um exemplo é método `__str__`. Nesse cenário, quando chamamos `__str__()` teremos um texto (**string**), com um título do Post.
 
-Se algo ainda não está claro sobre modelos, sinta-se livre para pedir ajuda a sua treinadora! Sabemos que é muito complicado, especialmente quando você aprender o que são objetos e funções ao mesmo tempo. Mas espero que está parte pareça menos mágica para você agora!
+Se algo ainda não está claro sobre modelos, sinta-se livre para pedir ajuda a sua treinadora ou treinador! Sabemos que é muito complicado, especialmente quando você aprender o que são objetos e funções ao mesmo tempo. Mas espero que está parte pareça menos mágica para você agora!
