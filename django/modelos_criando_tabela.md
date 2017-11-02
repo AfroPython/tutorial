@@ -2,13 +2,13 @@
 
 O último passo é adicionar nosso novo modelo para nosso banco de dados. Primeiro temos que fazer o Django saber que nós temos algumas mudanças em nosso modelo (só criamos isso), digite:
 ```
-python manage.py makemigrations blog
+python3 manage.py makemigrations blog
 ```
 
 Algo parecido com isto deve aparecer para você:
 
 ```
-~/afropython$ python manage.py makemigrations blog
+~/afropython$ python3 manage.py makemigrations blog
 Migrations for 'blog':
   0001_initial.py:
   - Create model Post
@@ -16,12 +16,12 @@ Migrations for 'blog':
 
 Django prepara um arquivo de migração que temos de aplicar agora para nosso banco de dados. Digite:
 ```
-python manage.py migrate blog
+python3 manage.py migrate blog
 ```
 
 A saída deve ser:
 ```
-~/afropython$ python manage.py migrate blog
+~/afropython$ python3 manage.py migrate blog
 Operations to perform:
   Apply all migrations: blog
 Running migrations:

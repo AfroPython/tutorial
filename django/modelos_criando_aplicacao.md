@@ -3,7 +3,7 @@
 Para manter tudo arrumado vamos criar um aplicativo separado dentro do nosso projeto. É muito bom ter tudo organizado desde o início. Para criar uma aplicação precisamos executar o seguinte comando no console (a partir do diretório afropython onde está o arquivo manage.py):
 
 ```
-~/afropython$ python manage.py startapp blog
+~/afropython$ python3 manage.py startapp blog
 ```
 
 Você vai notar que um novo diretório blog é criado e que ele agora contém um número de arquivos. Nossos diretórios e arquivos no nosso projeto devem se parecer com este:
