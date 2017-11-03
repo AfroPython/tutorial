@@ -10,7 +10,7 @@ admin.site.register(Post)
 
 Como você pode ver, nós importamos (incluímos) o modelo Post definido no capítulo anterior. Para tornar nosso modelo visível na página de administração, nós precisamos registrá-lo com: `admin.site.register(Post)`.
 
-OK, hora de olhar para o nosso modelo de Post. Lembre-se de executar `python3 manage.py runserver 0.0.0.0:8000` no console para executar o servidor web. Vá para o navegador e digite o endereço do seu site seguido de `/admin` (http://<<sua_url>>.codeanyapp.com:8000/admin/). Você verá uma página de login assim:
+OK, hora de olhar para o nosso modelo de Post. Lembre-se de executar `python3 manage.py runserver 0.0.0.0:8000` no console para executar o servidor web. Vá para o navegador e digite o endereço do seu site seguido de `/admin` (`http://<<sua_url>>.codeanyapp.com:8000/admin/`). Você verá uma página de login assim:
 
 Para fazer login você precisa criar um superuser - um usuário que possui controle sobre tudo do site. Volte para o terminal e digite `python manage.py createsuperuser`, pressione enter e digite seu nome de usuário (caixa baixa, sem espaço), endereço de e-mail e password quando eles forem requisitados. Não se preocupe que você não pode ver a senha que você está digitando - é assim que deve ser. Só digitá-la e pressione 'Enter' para continuar. A saída deve parecer com essa (onde Username e Email devem ser os seus):
 
