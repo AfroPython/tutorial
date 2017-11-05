@@ -52,8 +52,6 @@
     * [Criando uma aplicação](django/modelos_criando_aplicacao.md)
     * [Criando um modelo](django/modelos_criando_modelo.md)
     * [Criando tabelas](django/modelos_criando_tabela.md)
-<<<<<<< HEAD
 * [Administração](administracao.md)
-=======
 * [Views](views/views.md)
->>>>>>> Adiciona a introdução do capítulo de views
+   * [blog/views.py](views/blog_views_py.md)
