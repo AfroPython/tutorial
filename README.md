@@ -21,7 +21,7 @@ Neste momento estamos migrando os tópicos do [tutorial utilizado no Django Girl
 - [x] Integrado - Modelos do Django
 - [x] Integrado - Administração
 - [ ] Pull Request aberto - URLs
-- [ ] Pull Request aberto - View - hora de criar!
+- [x] Integrado - View - hora de criar!
 - [ ] Para fazer - Introdução ao HTML
 - [ ] Para fazer - QuerySet e ORM do Django
 - [ ] Para fazer - Dados dinâmicos no template
