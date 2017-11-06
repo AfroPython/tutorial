@@ -1,6 +1,6 @@
 # Sua primeira url Django!
 
-É hora de criar nossa primeira URL! Queremos [http://0.0.0.0:8000/] (http://0.0.0.0:8000/)para ser uma página inicial do nosso blog e exibir uma lista de posts.
+É hora de criar nossa primeira URL! Queremos [http://0.0.0.0:8000/](http://0.0.0.0:8000/) para ser uma página inicial do nosso blog e exibir uma lista de posts.
 
 Também queremos manter o arquivo de `mysite/urls.py` limpo, aí nós importaremos urls da nossa aplicação blog para o arquivo principal `mysite/urls.py`.
 
