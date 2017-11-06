@@ -1,6 +1,6 @@
 # blog.urls
 
-Crie um novo arquivo vazio `blog/urls.py`. Tudo bem! Adicione estas duas primeiras linhas:
+Agora crie um novo arquivo vazio chamado `blog/urls.py`, feito isso adicione as duas linhas abaixo:
 
 ```
 from django.conf.urls import include, url
