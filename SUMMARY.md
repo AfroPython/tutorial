@@ -53,3 +53,5 @@
     * [Criando um modelo](django/modelos_criando_modelo.md)
     * [Criando tabelas](django/modelos_criando_tabela.md)
 * [Administração](administracao.md)
+* [Views](views/views.md)
+   * [blog/views.py](views/blog_views_py.md)
