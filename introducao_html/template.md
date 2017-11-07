@@ -1,4 +1,4 @@
-## Seu primeiro template!
+# Seu primeiro template!
 
 Criar um template significa criar um arquivo de template. Tudo é um arquivo, certo? Provavelmente você já deve ter notado isso.
 

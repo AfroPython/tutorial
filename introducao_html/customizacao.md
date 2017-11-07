@@ -1,4 +1,4 @@
-## Customize seu template
+# Customize seu template
 
 Agora você pode se divertir um pouco tentando customizar o seu template! Aqui estão algumas tags úteis para isso:
 

@@ -1,4 +1,4 @@
-## Head & body
+# Head & body
 
 Cada página HTML também é dividida em dois elementos: __head__ (cabeça) e __body__ (corpo).
 
