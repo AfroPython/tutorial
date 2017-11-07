@@ -5,8 +5,8 @@ Agora você pode se divertir um pouco tentando customizar o seu template! Aqui e
 - `<h1>Um título</h1>` - para o título mais importante
 - `<h2>Um sub-título</h2>` para um título um nível abaixo
 - `<h3>Um sub-sub-título</h3>` ... e por aí vai, até `<h6>`
-- `<em>texto</em>` enfatiza seu texto
-- `<strong>text</strong>` enfatiza fortemente seu texto
+- `<em>texto</em>` deixa o texto em itálico
+- `<strong>text</strong>` deixa o texto em negrito
 - `<br />` pula para a próxima linha (você não pode colocar nada dentro de br)
 - `<a href="https://djangogirls.org">link</a>` cria um link
 - `<ul><li>primeiro item</li><li>segundo item</li></ul>` cria uma lista, exatamente como essa!
