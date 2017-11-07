@@ -14,11 +14,11 @@ Por exemplo, você pode por o elemento título de uma página web dentro da tag 
 ```html
 <html>
     <head>
-        <title>Ola's blog</title>
+        <title>Blog do AfroPython</title>
     </head>
     <body>
-        <p>Hi there!</p>
-        <p>It works!</p>
+        <p>Olá</p>
+        <p>Está funcionando o/</p>
     </body>
 </html>
 ```
@@ -27,7 +27,7 @@ Salve o arquivo e atualize sua página.
 
 ![Passo 3](../images/introducao_html/step3.png)
 
-Viu como o navegador entendeu que "Ola's blog" é o título da página? Ele interpretou `<title>Ola's blog</title>` e colocou o texto na barra de título do seu navegador (e também será usado para os favoritos e outras coisas mais).
+Viu como o navegador entendeu que "Blog do AfroPython" é o título da página? Ele interpretou `<title>Blog do AfroPython</title>` e colocou o texto na barra de título do seu navegador (e também será usado para os favoritos e outras coisas mais).
 
 Provavelmente você já deve ter notado que cada tag de abertura casa com uma _tag de fechamento_, com uma `/`, e que os elementos estão _aninhados_ (ex.: você não pode fechar uma tag em particular antes que todas as outras tags que estiverem dentro dela já estejam fechadas).
 
