@@ -55,3 +55,6 @@
 * [Administração](administracao.md)
 * [Views](views/views.md)
    * [blog/views.py](views/blog_views_py.md)
+* [Introdução a HTML](introducao_html/introducao.md)
+   * [Seu primeiro template!](introducao_html/template.md)
+   * [Head & Body](introducao_html/head_body.md)
