@@ -13,9 +13,9 @@ Os templates são salvos no diretório `blog/templates/blog`. Então, crie um di
 
 E agora crie o arquivo `post_list.html` (deixe-o em branco por agora) dentro do diretório `blog/templates/blog`.
 
-Veja como o nosso site está se parecendo agora: http://127.0.0.1:8000/
+Veja como o nosso site está se parecendo agora: http://0.0.0.0:8000/
 
-> Se ocorrer um erro de `TemplateDoesNotExists` tente reiniciar o seu servidor. Entre na linha de comando, pare o servidor pressionando Ctrl+C (Control seguido da tecla C, juntas) e reinicie-o rodando `python manage.py runserver`.
+> Se ocorrer um erro de `TemplateDoesNotExists` tente reiniciar o seu servidor. Entre na linha de comando, pare o servidor pressionando Ctrl+C (Control seguido da tecla C, juntas) e reinicie-o rodando `python3 manage.py runserver`.
 
 ![Passo 1](../images/introducao_html/step1.png)
 
@@ -30,8 +30,7 @@ Adicione a seguinte linha dentro do template:
 </html>
 ```
 
-
-Como nosso site se parece agora? Entre no site ou clique para descobrir: http://127.0.0.1:8000/
+Como nosso site se parece agora? Entre no site ou clique para descobrir: http://0.0.0.0:8000/
 
 ![Passo 2](../images/introducao_html/step2.png)
 
