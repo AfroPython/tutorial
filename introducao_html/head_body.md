@@ -17,8 +17,8 @@ Por exemplo, você pode por o elemento título de uma página web dentro da tag 
         <title>Blog do AfroPython</title>
     </head>
     <body>
-        <p>Olá</p>
-        <p>Está funcionando o/</p>
+        <p>Oi</p>
+        <p>Tudo funcionando por aqui :)</p>
     </body>
 </html>
 ```

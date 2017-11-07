@@ -25,8 +25,8 @@ Adicione a seguinte linha dentro do template:
 {% filename %}blog/templates/blog/post_list.html{% endfilename %}
 ```html
 <html>
-    <p>Hi there!</p>
-    <p>It works!</p>
+    <p>Oi</p>
+    <p>Tudo funcionando por aqui :)</p>
 </html>
 ```
 
