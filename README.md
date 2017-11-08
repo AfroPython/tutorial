@@ -23,7 +23,7 @@ Neste momento estamos migrando os tópicos do [tutorial utilizado no Django Girl
 - [x] Integrado - URLs
 - [x] Integrado - View - hora de criar!
 - [x] Integrado - Introdução ao HTML
-- [ ] Para fazer - QuerySet e ORM do Django
+- [ ] PR aberto - QuerySet e ORM do Django
 - [ ] PR aberto - Dados dinâmicos no template
 - [ ] Para fazer - Templates
 - [ ] Para fazer - CSS - Deixe mais bonito!
