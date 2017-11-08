@@ -79,8 +79,81 @@ Agora finalmente podemos criar nossa primeira postagem:
     
 Viva! Quer ver se funcionou?
 
-  command-line
-  >>> Post.objects.all()
-  <QuerySet [<Post: my post title>, <Post: another post title>, <Post: Sample title>]>
+    command-line
+    >>> Post.objects.all()
+    <QuerySet [<Post: my post title>, <Post: another post title>, <Post: Sample title>]>
   
-  
+  Ai está, mais uma postagem na lista!
+
+# Adicione mais postagens
+
+Agora você pode se divertir um pouco e adicionar mais postagens para ver como funciona. Adicione mais 2-3 e siga para a próxima parte.
+
+# Filtrar objetos
+
+Os QuerySets são muito usados pela habilidade de filtrar objectos. Digamos que queremos encontrar todos as postagens escritas pela usuária Ana. Nós usaremos o filter em vez de all em Post.objects.all(). Entre parênteses indicamos as condições que precisam ser atendidas por uma postagem de blog para que ela entre em nosso queryset. Em nosso caso, a condição é que author deve ser igual a me. A maneira de escrever isso no Django é: author=me. Agora o nosso trecho de código parece como este:
+
+    command-line
+    >>> Post.objects.filter(author=me)
+    [<Post: Sample title>, <Post: Post number 2>, <Post: My 3rd post!>, <Post: 4th title of post>]
+    
+ Ou talvez nós queiramos ver todas as postagens que contenham a palavra 'title' no campo de title?
+ 
+       command-line
+      >>> Post.objects.filter(title__contains='title')
+      [<Post: Sample title>, <Post: 4th title of post>]
+      
+
+        #Nota Existem dois caracteres de sublinhado (_) entre o title e contains. Django ORM usa esta sintaxe para separar nomes de campo ("title") e operações ou filtros ("contains"). Se você usar apenas um sublinhado, você obterá um erro como "FieldError: Cannot resolve keyword title_contains".
+
+Você também pode obter uma lista de todas as postagens publicadas. Fazemos isso filtrando todos os posts com published_date definido no passado:
+
+      command-line
+      >>> from django.utils import timezone
+      >>> Post.objects.filter(published_date__lte=timezone.now())
+      []
+
+Infelizmente, nenhuma de nossas postagens feitas a partir do console do Python estão publicadas ainda. Mas nós podemos mudar isso! Primeiro obtenha uma instância de uma postagem que queremos publicar:
+
+      command-line
+      >>> post = Post.objects.get(title="Sample title")
+      
+      
+E então vamos publicá-la com o nosso método publish!
+
+      command-line
+      >>> post.publish()
+
+Agora, tente obter a lista de postagens publicadas novamente (pressione o botão da seta para cima 3 vezes e tecle enter):
+
+      command-line
+      >>> Post.objects.filter(published_date__lte=timezone.now())
+      [<Post: Sample title>]
+
+# Ordenando objetos
+
+Um QuerySet também nos permite ordenar a lista de objetos. Vamos tentar ordenar as postagens pelo campo created_date:
+
+    command-line
+    >>> Post.objects.order_by('created_date')
+    [<Post: Sample title>, <Post: Post number 2>, <Post: My 3rd post!>, <Post: 4th title of post>]
+
+Você também pode inverter a ordem adicionando um - no início:
+
+      command-line
+      >>> Post.objects.order_by('-created_date')
+      [<Post: 4th title of post>,  <Post: My 3rd post!>, <Post: Post number 2>, <Post: Sample title>]
+
+# Encadeando QuerySets
+
+Você pode também combinar QuerySets pelo #encadeamento deles em sequência:
+
+      >>> Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+
+Isso é realmente poderoso e permite que você escreva pesquisas ("queries") bem complexas.
+
+Legal! Você já está pronta para a próxima parte! Para fechar o terminal digite:
+
+      command-line
+      >>> exit()
+      $
