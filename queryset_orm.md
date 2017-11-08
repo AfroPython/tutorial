@@ -146,7 +146,7 @@ Você também pode inverter a ordem adicionando um - no início:
 
 # Encadeando QuerySets
 
-Você pode também combinar QuerySets pelo #encadeamento deles em sequência:
+Você pode também combinar QuerySets pelo encadeamento deles em sequência:
 
       >>> Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
 
