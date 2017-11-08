@@ -37,7 +37,7 @@ Oops! Um erro apareceu. Ele nos diz que não existe algo chamado Post. É verdad
     command-line
     >>> from blog.models import Post
 
-Isso é simples: importamos o modelo Post de dentro do blog.models. Vamos tentar mostrar todas as postagens novamente:
+Isso é simples: importamos o modelo `Post` de dentro do `blog.models`. Vamos tentar mostrar todas as postagens novamente:
 
     command-line
     >>> Post.objects.all()
@@ -52,7 +52,7 @@ Isso é simples: importamos o modelo Post de dentro do blog.models. Vamos tentar
     command-line
     >>> Post.objects.create(author=me, title='Sample title', text='Test')
 
-Mas aqui temos um ingrediente que está faltando: me. Precisamos passar uma instância do modelo User como autor. Como fazer isso?
+Mas aqui temos um ingrediente que está faltando: `me`. Precisamos passar uma instância do modelo `User` como autor. Como fazer isso?
 
 Primeiro vamos importar o modelo User:
 
@@ -70,7 +70,7 @@ Quais usuários temos no nosso banco de dados? Experimente isso:
     command-line
     me = User.objects.get(username='Ana')
 
-Como você pode ver, nós agora usamos um get para pegar um User com um username igual a 'Ana'. Claro, você tem que adaptar essa linha ao seu nome de usuário.
+Como você pode ver, nós agora usamos um `get` para pegar um `User` com um `username` igual a 'Ana'. Claro, você tem que adaptar essa linha ao seu nome de usuário.
 
 Agora finalmente podemos criar nossa primeira postagem:
 
@@ -91,22 +91,22 @@ Agora você pode se divertir um pouco e adicionar mais postagens para ver como f
 
 # Filtrar objetos
 
-Os QuerySets são muito usados pela habilidade de filtrar objectos. Digamos que queremos encontrar todos as postagens escritas pela usuária Ana. Nós usaremos o filter em vez de all em Post.objects.all(). Entre parênteses indicamos as condições que precisam ser atendidas por uma postagem de blog para que ela entre em nosso queryset. Em nosso caso, a condição é que author deve ser igual a me. A maneira de escrever isso no Django é: author=me. Agora o nosso trecho de código parece como este:
+Os QuerySets são muito usados pela habilidade de filtrar objectos. Digamos que queremos encontrar todos as postagens escritas pela usuária Ana. Nós usaremos o `filter` em vez de `all` em `Post.objects.all()`. Entre parênteses indicamos as condições que precisam ser atendidas por uma postagem de blog para que ela entre em nosso queryset. Em nosso caso, a condição é que `author` deve ser igual a `me`. A maneira de escrever isso no Django é: `author=me`. Agora o nosso trecho de código parece como este:
 
     command-line
     >>> Post.objects.filter(author=me)
     [<Post: Sample title>, <Post: Post number 2>, <Post: My 3rd post!>, <Post: 4th title of post>]
     
- Ou talvez nós queiramos ver todas as postagens que contenham a palavra 'title' no campo de title?
+ Ou talvez nós queiramos ver todas as postagens que contenham a palavra 'title' no campo de `title`?
  
        command-line
       >>> Post.objects.filter(title__contains='title')
       [<Post: Sample title>, <Post: 4th title of post>]
       
 
-        #Nota Existem dois caracteres de sublinhado (_) entre o title e contains. Django ORM usa esta sintaxe para separar nomes de campo ("title") e operações ou filtros ("contains"). Se você usar apenas um sublinhado, você obterá um erro como "FieldError: Cannot resolve keyword title_contains".
+        Nota Existem dois caracteres de sublinhado (`_`) entre o `title` e `contains`. Django ORM usa esta sintaxe para separar nomes de campo ("title") e operações ou filtros ("contains"). Se você usar apenas um sublinhado, você obterá um erro como "FieldError: Cannot resolve keyword title_contains".
 
-Você também pode obter uma lista de todas as postagens publicadas. Fazemos isso filtrando todos os posts com published_date definido no passado:
+Você também pode obter uma lista de todas as postagens publicadas. Fazemos isso filtrando todos os posts com `published_date` definido no passado:
 
       command-line
       >>> from django.utils import timezone
@@ -119,12 +119,12 @@ Infelizmente, nenhuma de nossas postagens feitas a partir do console do Python e
       >>> post = Post.objects.get(title="Sample title")
       
       
-E então vamos publicá-la com o nosso método publish!
+E então vamos publicá-la com o nosso método `publish`!
 
       command-line
       >>> post.publish()
 
-Agora, tente obter a lista de postagens publicadas novamente (pressione o botão da seta para cima 3 vezes e tecle enter):
+Agora, tente obter a lista de postagens publicadas novamente (pressione o botão da seta para cima 3 vezes e tecle `enter`):
 
       command-line
       >>> Post.objects.filter(published_date__lte=timezone.now())
@@ -132,13 +132,13 @@ Agora, tente obter a lista de postagens publicadas novamente (pressione o botão
 
 # Ordenando objetos
 
-Um QuerySet também nos permite ordenar a lista de objetos. Vamos tentar ordenar as postagens pelo campo created_date:
+Um QuerySet também nos permite ordenar a lista de objetos. Vamos tentar ordenar as postagens pelo campo `created_date`:
 
     command-line
     >>> Post.objects.order_by('created_date')
     [<Post: Sample title>, <Post: Post number 2>, <Post: My 3rd post!>, <Post: 4th title of post>]
 
-Você também pode inverter a ordem adicionando um - no início:
+Você também pode inverter a ordem adicionando um `-` no início:
 
       command-line
       >>> Post.objects.order_by('-created_date')
@@ -146,7 +146,7 @@ Você também pode inverter a ordem adicionando um - no início:
 
 # Encadeando QuerySets
 
-Você pode também combinar QuerySets pelo encadeamento deles em sequência:
+Você pode também combinar QuerySets pelo `encadeamento` deles em sequência:
 
       >>> Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
 
