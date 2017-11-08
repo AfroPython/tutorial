@@ -66,3 +66,4 @@
    * [Head & Body](introducao_html/head_body.md)
    * [Customize seu template](introducao_html/customizacao.md)
 * [Dados dinâmicos no template](dados-dinamicos-no-template/dados-dinamicos-no-template.md)
+  * [QuerySet](dados-dinamicos-no-template/queryset.md)
