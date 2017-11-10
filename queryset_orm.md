@@ -10,10 +10,10 @@ Um QuerySet (conjunto de pesquisa), no fundo, é uma lista de objetos de um dado
 
 # O Shell do Django
 
-Abra seu console local (não no PythonAnywhere) e digite esse comando:
+Abra seu console local (Aperte a tecla "Windows", pesquise por CMD e clique na tecla "Enter" para abri-lo) e digite esse comando:
 
                   command-line
-                  (myvenv) ~/djangogirls$ python manage.py shell
+                  (myvenv) ~/djangogirls$ python3 manage.py shell
 
 O efeito deve se parecer com isso:
 
@@ -50,7 +50,7 @@ Isso é simples: importamos o modelo `Post` de dentro do `blog.models`. Vamos te
 É assim que você cria um objeto Post no banco de dados:
 
     command-line
-    >>> Post.objects.create(author=me, title='Sample title', text='Test')
+    >>> Post.objects.create(author=me, title='Exemplo de Título', text='Teste')
 
 Mas aqui temos um ingrediente que está faltando: `me`. Precisamos passar uma instância do modelo `User` como autor. Como fazer isso?
 
@@ -75,7 +75,7 @@ Como você pode ver, nós agora usamos um `get` para pegar um `User` com um `use
 Agora finalmente podemos criar nossa primeira postagem:
 
     command-line
-    >>> Post.objects.create(author=me, title='Sample title', text='Test')
+    >>> Post.objects.create(author=me, title='Exemplo de Título', text='Teste')
     
 Viva! Quer ver se funcionou?
 
@@ -91,7 +91,7 @@ Agora você pode se divertir um pouco e adicionar mais postagens para ver como f
 
 # Filtrar objetos
 
-Os QuerySets são muito usados pela habilidade de filtrar objectos. Digamos que queremos encontrar todos as postagens escritas pela usuária Ana. Nós usaremos o `filter` em vez de `all` em `Post.objects.all()`. Entre parênteses indicamos as condições que precisam ser atendidas por uma postagem de blog para que ela entre em nosso queryset. Em nosso caso, a condição é que `author` deve ser igual a `me`. A maneira de escrever isso no Django é: `author=me`. Agora o nosso trecho de código parece como este:
+Os QuerySets são muito usados pela habilidade de filtrar objetos. Digamos que queremos encontrar todos as postagens escritas pela usuária Ana. Nós usaremos o `filter` em vez de `all` em `Post.objects.all()`. Entre parênteses indicamos as condições que precisam ser atendidas por uma postagem de blog para que ela entre em nosso queryset. Em nosso caso, a condição é que `author` deve ser igual a `me`. A maneira de escrever isso no Django é: `author=me`. Agora o nosso trecho de código parece como este:
 
     command-line
     >>> Post.objects.filter(author=me)
@@ -116,7 +116,7 @@ Você também pode obter uma lista de todas as postagens publicadas. Fazemos iss
 Infelizmente, nenhuma de nossas postagens feitas a partir do console do Python estão publicadas ainda. Mas nós podemos mudar isso! Primeiro obtenha uma instância de uma postagem que queremos publicar:
 
       command-line
-      >>> post = Post.objects.get(title="Sample title")
+      >>> post = Post.objects.get(title="Exemplo de Título")
       
       
 E então vamos publicá-la com o nosso método `publish`!
@@ -152,7 +152,7 @@ Você pode também combinar QuerySets pelo `encadeamento` deles em sequência:
 
 Isso é realmente poderoso e permite que você escreva pesquisas ("queries") bem complexas.
 
-Legal! Você já está pronta para a próxima parte! Para fechar o terminal digite:
+Legal! Você já está pronto(a) para a próxima parte! Para fechar o terminal digite:
 
       command-line
       >>> exit()
