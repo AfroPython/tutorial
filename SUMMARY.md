@@ -66,3 +66,4 @@
    * [Head & Body](introducao_html/head_body.md)
    * [Customize seu template](introducao_html/customizacao.md)
 * [Templates](templates/templates.md)
+  * [O que são tags de template](templates/o_que_sao_tags_de_template.md)
