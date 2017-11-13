@@ -67,3 +67,4 @@
    * [Customize seu template](introducao_html/customizacao.md)
 * [Templates](templates/templates.md)
   * [O que são tags de template](templates/o_que_sao_tags_de_template.md)
+  * [Modelo de lista de post de exibição](templates/modelo_de_lista_de_post_de_exibicao.md)
