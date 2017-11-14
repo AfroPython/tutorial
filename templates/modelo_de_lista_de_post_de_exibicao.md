@@ -39,7 +39,7 @@ Funciona! Mas nós queremos que eles sejam exibidos como os posts estáticos, co
 
 {% for post in posts %}
     <div>
-        <p>published: {{ post.published_date }}</p>
+        <p>publicado em: {{ post.published_date }}</p>
         <h1><a href="">{{ post.title }}</a></h1>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
