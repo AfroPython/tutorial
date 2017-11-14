@@ -23,7 +23,7 @@ if nome == 'Ola':
 elif nome == 'Sonja':
     print('Oi Sonja!')
 else:
-    print('Oi anonimo!')
+    print('Oi anônimo!')
 ```
 
 e executado:
