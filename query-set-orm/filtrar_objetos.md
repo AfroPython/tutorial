@@ -4,7 +4,8 @@ Uma grande parte de QuerySets é a habilidade de filtrá-los. Digamos que querem
 
 ```
 >>> Post.objects.filter(author=me)
-<QuerySet [<Post: Sample title>, <Post: Post number 2>, <Post: My 3rd post!>, <Post: 4th title of post>]>
+<QuerySet [<Post: Exemplo de título>, <Post: Post número 2>, <Post: Meu 3º post!>, <Post: 4º título de post>]>
+`]>
 ```
 
 Ou talvez nós queremos ver todos os posts que contenham a palavra 'title' no campo de `title`?

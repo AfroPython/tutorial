@@ -13,7 +13,7 @@ Você também pode inverter a ordem adicionando - no início:
 <QuerySet [<Post: 4º título de post>, <Post: Meu 3º post!>, <Post: Post número 2>, <Post: Exemplo de título>]>
 ```
 
-Legal! Você já está pronta para a próxima parte! Para fechar o terminal digite:
+Legal! Você já está pronto(a) para a próxima parte! Para fechar o terminal digite:
 
 ```
 >>> exit()
