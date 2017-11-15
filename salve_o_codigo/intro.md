@@ -25,7 +25,7 @@ print('Hello, AfroPython!')
 
 >Nota: Você deve observar que uma das coisas mais legais sobre editores de código: cores! No console do Python, tudo era da mesma cor, mas agora você deve ver que a função de ``Imprimir`` é uma cor diferente da sequência de caracteres no seu interior. Isso é chamado de ``"realce de sintaxe"``, e é uma ajuda muito útil quando está programando. Perceba a cor das coisas e você vai obter uma dica para quando você esquecer de fechar uma seqüência de caracteres, ou fazer um erro de digitação em um nome de palavra-chave (como ``def`` em uma função, que veremos abaixo). Esta é uma das razões pelas quais nós usamos um editor de código :)
 
-Obviamente, você é uma desenvolvedora python bastante experiente agora, então sinta-se livre para escrever um código que você aprendeu hoje.
+Obviamente, você é um(a) desenvolvedor(a) python bastante experiente agora, então sinta-se livre para escrever um código que você aprendeu hoje.
 
 Não esqueça de salvar as modificações no seu arquivo (`File > Save, ou utilize o atalho Ctrl + S`). Com o arquivo salvo, é hora de executá-lo! Usando as habilidades que você aprendeu na seção de linha de comando, use o terminal para chegar na pasta em que seu arquivo foi salvo.
 
@@ -39,6 +39,6 @@ Hello, AfroPython!
 
 Tudo bem! Você acabou de executar seu primeiro programa em python que foi salvo em um arquivo.
 
-Se sente ótima?
+Se sente bem?
 
 Vamos descobrir mais coisas que podemos fazer com python então! :D

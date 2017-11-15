@@ -56,4 +56,4 @@ Parabéns! Você criou seu primeiro site e o executou usando um servidor de web!
 
 ![Site início](../images/django/servidor_rodando.png)
 
-Pronta para o próximo passo? Está na hora de criar algum conteúdo!
+Pronto(a) para o próximo passo? Está na hora de criar algum conteúdo!
