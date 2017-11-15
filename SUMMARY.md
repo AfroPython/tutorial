@@ -65,3 +65,4 @@
    * [Seu primeiro template!](introducao_html/template.md)
    * [Head & Body](introducao_html/head_body.md)
    * [Customize seu template](introducao_html/customizacao.md)
+* [QuerySet e ORM do Django](query-set-orm/queryset_e_orm_do_django.md)
