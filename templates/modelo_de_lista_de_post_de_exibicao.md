@@ -10,7 +10,7 @@ Para exibir uma variável no Django template, nós usamos colchetes duplos com o
 
 Tente fazer isso no seu template `blog/templates/blog/post_list.html` (substituia o segundo e o terceiro par de tags `<div></div>` pela linha `{{ posts }})`, salve o arquivo e atualize a página para ver os resultados:
 
-# Foto aqui
+![Template vazio](../images/templates/template-vazio.png)
 
 Você pode ver, tudo que temos é:
 
@@ -28,7 +28,7 @@ Isto significa que o Django a entende como uma lista de objetos. Lembre-se de **
 
 Tente fazer isso no seu template.
 
-# Foto aqui
+![Template funcionando](../images/templates/funciona.png)
 
 Funciona! Mas nós queremos que eles sejam exibidos como os posts estáticos, como os que criamos anteriormente no capítulo de **Introdução a HTML**. Nós podemos misturar HTML com tags de template. O conteúdo da tag body ficará assim:
 
@@ -48,7 +48,7 @@ Funciona! Mas nós queremos que eles sejam exibidos como os posts estáticos, co
 
 Tudo que você põe entre `{% for %}` e `{% endfor %}` será repetido para cada objeto na lista. Atualize sua página:
 
-# Foto aqui
+![Cabeçalho alterado](../images/templates/cabecalho-alterado.png)
 
 Você notou que dessa vez nós usamos uma notação um pouco diferente `{{ post.title }}` ou `{{ post.text }}`? Nós estamos acessando os dados em cada um dos campos que definimos no model do Post. Além disso, `|linebreaksbr` está passando o texto do post por um filtro, convertendo quebras de linha em parágrafos.
 
@@ -56,4 +56,4 @@ Parabéns! Agora vá em frente e tente adicionar um novo post em seu Django admi
 
 Funciona como mágica? Estamos orgulhosos! Afaste-se do seu computador um pouco, você ganhou uma pausa. :)
 
-# Foto de pausa aqui
+![HTML do Template completo](../images/templates/html-completo.png)
