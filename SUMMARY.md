@@ -66,3 +66,4 @@
    * [Head & Body](introducao_html/head_body.md)
    * [Customize seu template](introducao_html/customizacao.md)
 * [QuerySet e ORM do Django](query-set-orm/queryset_e_orm_do_django.md)
+  * [O que é um QuerySet?](query-set-orm/o_que_e_um_queryset.md)
