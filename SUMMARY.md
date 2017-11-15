@@ -69,3 +69,4 @@
   * [O que é um QuerySet?](query-set-orm/o_que_e_um_queryset.md)
   * [O shell do Django](query-set-orm/shell_do_django.md)
     * [Todos os objetos](query-set-orm/todos_os_objetos.md)
+    * [Criando um objeto](query-set-orm/criando_um_objeto.md)
