@@ -70,3 +70,4 @@
   * [O shell do Django](query-set-orm/shell_do_django.md)
     * [Todos os objetos](query-set-orm/todos_os_objetos.md)
     * [Criando um objeto](query-set-orm/criando_um_objeto.md)
+    * [Adicionando objetos](query-set-orm/adicionando_objetos.md)
