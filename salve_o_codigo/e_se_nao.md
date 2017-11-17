@@ -17,18 +17,18 @@ $ python3 python_intro.py
 Se 2 for um número maior do que 5, então o segundo comando será executado. Fácil, né? Vamos ver como funciona o `elif`:
 ```
 
-name = 'Sonja'
-if name == 'Ola':
-    print('Hey Ola!')
-elif name == 'Sonja':
-    print('Hey Sonja!')
+nome = 'Sonja'
+if nome == 'Ola':
+    print('Oi Ola!')
+elif nome == 'Sonja':
+    print('Oi Sonja!')
 else:
-    print('Hey anonymous!')
+    print('Oi anônimo!')
 ```
 
 e executado:
 ```
 $ python3 python_intro.py
-Hey Sonja!
+Oi Sonja!
 ```
-Viu o que aconteceu? O python comparou o valor da variável `name` e caiu na condição do `elif` onde compara `name == 'Sonja'` e assim imprimiu `Hey Sonja!` :D
+Viu o que aconteceu? O python comparou o valor da variável `nome` e caiu na condição do `elif` onde compara `nome == 'Sonja'` e assim imprimiu `Oi Sonja!` :D
