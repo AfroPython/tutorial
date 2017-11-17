@@ -20,7 +20,7 @@ Vamos chamar o arquivo `python_intro.py` e salvá-lo. Podemos nomear o arquivo d
 
 Agora você pode escrever seu programa.
 ```
-print('Hello, AfroPython!')
+print('Olá, AfroPython!')
 ```
 
 >Nota: Você deve observar que uma das coisas mais legais sobre editores de código: cores! No console do Python, tudo era da mesma cor, mas agora você deve ver que a função de ``Imprimir`` é uma cor diferente da sequência de caracteres no seu interior. Isso é chamado de ``"realce de sintaxe"``, e é uma ajuda muito útil quando está programando. Perceba a cor das coisas e você vai obter uma dica para quando você esquecer de fechar uma seqüência de caracteres, ou fazer um erro de digitação em um nome de palavra-chave (como ``def`` em uma função, que veremos abaixo). Esta é uma das razões pelas quais nós usamos um editor de código :)
@@ -34,7 +34,7 @@ Se você ficar presa, peça ajuda.
 Em seguida, usar o Python para executar o código no arquivo assim:
 ```
 $ python3 python_intro.py
-Hello, AfroPython!
+Olá, AfroPython!
 ```
 
 Tudo bem! Você acabou de executar seu primeiro programa em python que foi salvo em um arquivo.
