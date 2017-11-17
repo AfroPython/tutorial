@@ -22,7 +22,7 @@ Veja como o nosso site está se parecendo agora: http://0.0.0.0:8000/
 Acabaram-se os erros! Parabéns :) Entretanto, nosso site não mostra nada a não ser uma página em branco. Isso porque o nosso template está vazio. Então precisamos consertar isso.
 Adicione a seguinte linha dentro do template:
 
-{% filename %}blog/templates/blog/post_list.html{% endfilename %}
+blog/templates/blog/post_list.html
 ```html
 <html>
     <p>Oi</p>
