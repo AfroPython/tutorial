@@ -73,6 +73,8 @@
     * [Adicionando objetos](query-set-orm/adicionando_objetos.md)
     * [Filtrar objetos](query-set-orm/filtrar_objetos.md)
     * [Ordenando objetos](query-set-orm/ordenando_objetos.md)
+* [Dados dinâmicos no template](dados-dinamicos-no-template/dados-dinamicos-no-template.md)
+  * [QuerySet](dados-dinamicos-no-template/queryset.md)
 * [Templates](templates/templates.md)
   * [O que são tags de template](templates/o_que_sao_tags_de_template.md)
   * [Modelo de lista de post de exibição](templates/modelo_de_lista_de_post_de_exibicao.md)
