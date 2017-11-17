@@ -5,9 +5,9 @@ Se lembra de funções como len() que você pode executar no Python? Bem, boas n
 Uma função é uma sequência de instruções que o Python deve executar. Cada função em Python começa com a palavra-chave def, seguido de um nome para a função e opcionalmente uma lista de parâmetros. Vamos começar com uma função simples. Substitua o código no python_intro.py com o seguinte:
 
 ```
-def hi():
-    print('Hi there!')
-    print('How are you?')
+def oi():
+    print('Olá!')
+    print('Como vai você?')
 
 hi()
 ```
@@ -20,8 +20,8 @@ Vamos executa-lo agora e ver o que acontece:
 
 ```
 $ python3 python_intro.py
-Hi there!
-How are you?
+Olá!
+Como vai você?
 ```
 
 Isso foi fácil! Vamos construir nossa primeira função com parâmetros. Usaremos o exemplo anterior - uma função que diz 'hi' para quem o executa - com um name:
@@ -39,7 +39,7 @@ def oi(nome):
     elif nome == 'Sonja':
         print('Oi Sonja!')
     else:
-        print('Oi anonimo!')
+        print('Oi anônimo!')
 
 oi()
 ```
@@ -49,7 +49,7 @@ Como você pode ver, nós precisamos colocar dois espaços antes da função pri
 $ python3 python_intro.py
 Traceback (most recent call last):
 File "python_intro.py", line 10, in <module>
-  hi()
+  oi()
 TypeError: oi() missing 1 required positional argument: 'nome'
 ```
 
