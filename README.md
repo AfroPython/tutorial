@@ -26,7 +26,7 @@ Neste momento estamos migrando os tópicos do [tutorial utilizado no Django Girl
 - [ ] PR aberto - QuerySet e ORM do Django
 - [ ] PR aberto - Dados dinâmicos no template
 - [ ] PR aberto - Templates
-- [ ] Para fazer - CSS - Deixe mais bonito!
+- [ ] PR aberto - CSS - Deixe mais bonito!
 - [ ] Para fazer - Estendendo os templates
 - [ ] Para fazer - Amplie sua aplicação
 - [ ] Para fazer - Git
