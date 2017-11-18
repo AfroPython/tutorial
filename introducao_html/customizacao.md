@@ -12,7 +12,7 @@ Agora você pode se divertir um pouco tentando customizar o seu template! Aqui e
 - `<ul><li>primeiro item</li><li>segundo item</li></ul>` cria uma lista, exatamente como essa!
 - `<div></div>` define uma seção da página
 
-blog/templates/blog/post_list.html
+{% filename %}blog/templates/blog/post_list.html{% endfilename %}
 ```html
 <html>
     <head>
