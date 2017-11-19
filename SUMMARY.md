@@ -83,3 +83,4 @@
   * [Vamos usar o Bootstrap!](css/bootstrap.md)
   * [Arquivos estáticos no Django](css/estaticos_do_django.md)
   * [Seu primeiro arquivo CSS!](css/primeiro_arquivo_css.md)
+* [Amplie sua aplicação](amplie_sua_aplicacao/amplie_sua_aplicacao.md)
