@@ -4,11 +4,11 @@ Finalmente nós iremos ver mais de perto nessas coisas que chamamos de __arquivo
 
 ### Onde colocar os arquivos estáticos para Django
 
-Django já sabe onde encontrar os arquivos estáticos para o built-in "admin" app. Agora só precisamos adicionar alguns arquivos estáticos para nosso próprio app, `blog`.
+Django já sabe onde encontrar os arquivos estáticos para o app padrão "admin". Agora só precisamos adicionar alguns arquivos estáticos para nosso próprio app, `blog`.
 
 Fazemos isso através da criação de uma pasta chamada `static` dentro do aplicativo do blog:
 
-    djangogirls
+    afropython
     ├── blog
     │   ├── migrations
     │   ├── static
