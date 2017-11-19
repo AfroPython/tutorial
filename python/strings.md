@@ -56,4 +56,4 @@ OK, chega de strings. Até agora você aprendeu sobre:
 - **funções** - como upper() e len(), executam ações nos objetos.
 
 
-Isso é o básico sobre todas as linguagens de programação que você aprende. Pronto para algo mais difícil? Apostamos que sim!
+Isso é o básico sobre todas as linguagens de programação que você aprende. Pronto(a) para algo mais difícil? Apostamos que sim!

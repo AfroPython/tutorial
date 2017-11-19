@@ -6,7 +6,7 @@ Vamos escrever um pouco de código!
 
 ## Interpretador python
 
-Para começar a brincar com Python nós precisamos abrir uma linha de comando no seu computador. Você já deve saber como fazer isso -- você aprendeu isso no capítulo [Introdução à Linha de Comando](../linha_de_comando/introducao.md). Assim que estiver pronto, siga as instruções abaixo.
+Para começar a brincar com Python nós precisamos abrir uma linha de comando no seu computador. Você já deve saber como fazer isso -- você aprendeu isso no capítulo [Introdução à Linha de Comando](../linha_de_comando/introducao.md). Assim que estiver pronto(a), siga as instruções abaixo.
 
 Nós queremos abrir o Python num terminal, então digite python3 no terminal (verifique se está na janela que aparece cabox@box-codeanywhere:$) e tecle Enter.
 ```

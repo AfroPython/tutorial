@@ -16,6 +16,4 @@ Estes são apenas alguns dos poucos comandos que você pode executar em sua linh
 
 Se você estiver curioso, [ss64.com](ss64.com) contém uma referência completa de comandos para todos os sistemas operacionais.
 
-**Pronta?**
-
-Vamos mergulhar no Python!
+**Vamos começar? **
