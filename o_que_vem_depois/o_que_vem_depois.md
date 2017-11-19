@@ -19,7 +19,7 @@ Em Português:
 - [Python 3 na web com Django](https://www.udemy.com/python-3-na-web-com-django-basico-intermediario/)
 - [Ignorância Zero](https://www.youtube.com/playlist?list=PLfCKf0-awunOu2WyLe2pSD2fXUo795xRe)
 - [Curso de Python do Code Academy](https://www.codecademy.com/pt-BR/tracks/python)
-- [Curos de HTML & CSS do Code Academy](https://www.codecademy.com/pt-BR/tracks/web)
+- [Curso de HTML & CSS do Code Academy](https://www.codecademy.com/pt-BR/tracks/web)
 
 Em Inglês:
 - [Tutorial oficial do Django](https://docs.djangoproject.com/en/1.8/intro/tutorial01/)
