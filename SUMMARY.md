@@ -80,3 +80,6 @@
   * [Modelo de lista de post de exibição](templates/modelo_de_lista_de_post_de_exibicao.md)
 
 * [CSS - Deixe mais bonito!](css/css.md)
+  * [Vamos usar o Bootstrap!](css/bootstrap.md)
+  * [Arquivos estáticos no Django](css/estaticos_do_django.md)
+  * [Seu primeiro arquivo CSS!](css/primeiro_arquivo_css.md)
