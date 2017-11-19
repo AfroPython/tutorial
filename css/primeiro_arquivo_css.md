@@ -2,7 +2,7 @@
 
 Vamos criar um arquivo CSS agora, para adicionar seu próprio estilo para sua página da web. Crie um novo diretório chamado `css` dentro de seu diretório `static`. Em seguida, crie um novo arquivo chamado `blog.css` dentro do diretório `css`. Pronto?
 
-    djangogirls
+    afropython
     └─── blog
          └─── static
               └─── css
@@ -11,7 +11,7 @@ Vamos criar um arquivo CSS agora, para adicionar seu próprio estilo para sua p�
 
 Hora de escrever CSS! Abra o arquivo `static/css/blog.css` no seu editor de código.
 
-Não vamos nos aprofundar muito em customizar e aprender sobre CSS aqui, porque é bem fácil e você pode aprender sozinha após este workshop.  Tem uma recomendação de um curso gratuito para aprender mais no final da página.
+Não vamos nos aprofundar muito em customizar e aprender sobre CSS aqui, porque você pode aprender sozinho(a) após esta oficina. Tem uma recomendação de um curso gratuito para aprender mais no final da página.
 
 Mas vamos fazer pelo menos um pouco. Talvez possamos mudar a cor do nosso cabeçalho? Para entender sobre cores, computadores usam códigos especiais. Eles começam com `#` e são seguidos por 6 letras (A-F) e números (0-9). Por exemplo, o código para azul é `#0000FF`. Você pode encontrar vários exemplos de códigos de cores aqui: http://www.colorpicker.com/. Você pode também usar [cores predefinidas](http://www.w3schools.com/colors/colors_names.asp), como `vermelho - red` e `verde - green`.
 
@@ -20,16 +20,16 @@ Em seu arquivo `blog/static/css/blog.css` você deve adicionar o seguinte códig
 blog/static/css/blog.css
 ```css
 h1 a {
-    color: #FCA205;
+    color: #DA691A;
 }
 ```
 
-`h1 a` é um seletor de CSS. Isso significa que nós estamos aplicando nossos estilos para qualquer elemento `a` dentro de um elemento `h1`. Então quando tivermos no código algo como `<h1><a href="">link</a></h1>`, o estilo `h1 a` será aplicado. Neste caso nós estamos dizendo para mudar a cor para `#FCA205`, que é laranja. Claro, você pode colocar a cor que você quiser aqui!
+`h1 a` é um seletor de CSS. Isso significa que nós estamos aplicando nossos estilos para qualquer elemento `a` dentro de um elemento `h1`. Então quando tivermos no código algo como `<h1><a href="">link</a></h1>`, o estilo `h1 a` será aplicado. Neste caso nós estamos dizendo para mudar a cor para `#DA691A`, que é laranja. Claro, você pode colocar a cor que você quiser aqui!
 
-Em um arquivo CSS podemos determinar estilos para elementos no arquivo HTML. A primeira maneira de identificar elementos é pelo nome do elemento. Você de lembrar dessas tags na seção de HTML. Coisas como `a`, `h1` e  `body` são todas exemplos de nomes de elementos. Nós também identificamos elementos pelo atributo `class` ou o atributo `id`. Classe e id são nomes que você mesmo dá ao elemento. Classes definem grupos de elementos, e ids apontam para elementos específicos. Por exemplo, você poderia identificar a seguinte tag usando a tag de nome `a`, a classe `external_link` ou a id `link_para_a_wiki_page`:
+Em um arquivo CSS podemos determinar estilos para elementos no arquivo HTML. A primeira maneira de identificar elementos é pelo nome do elemento. Você deve lembrar dessas tags na seção de HTML. Coisas como `a`, `h1` e  `body` são todas exemplos de nomes de elementos. Nós também identificamos elementos pelo atributo `class` ou o atributo `id`. Classe e idenfiticador(id) são nomes que você mesmo dá ao elemento. Classes definem grupos de elementos, e ids apontam para elementos específicos. Por exemplo, você poderia identificar a seguinte tag usando a tag `a`, a classe `link_externo`, ou o id `link_wikipedia_do_django`.
 
 ```html
-<a href="https://en.wikipedia.org/wiki/Django" class="external_link" id="link_to_wiki_page">
+<a href="https://en.wikipedia.org/wiki/Django" class="link_externo" id="link_wikipedia_do_django">
 ```
 
 Você pode ler mais sobre [Seletores CSS em w3schools](http://www.w3schools.com/cssref/css_selectors.asp).
@@ -57,19 +57,19 @@ blog/templates/blog/post_list.html
 {% load staticfiles %}
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Blog do AfroPython</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
         <div>
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="/">Blog do AfroPython</a></h1>
         </div>
 
         {% for post in posts %}
             <div>
-                <p>published: {{ post.published_date }}</p>
+                <p>publicado em: {{ post.published_date }}</p>
                 <h1><a href="">{{ post.title }}</a></h1>
                 <p>{{ post.text|linebreaksbr }}</p>
             </div>
@@ -99,21 +99,21 @@ Talvez a gente possa customizar a fonte no nosso cabeçalho? Cole na seção `<h
 
 blog/templates/blog/post_list.html
 ```html
-<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 ```
 
-Como antes, cconfira a ordem e coloque antes do link para `blog/static/css/blog.css`. Essa linha irá importar uma fonte chamada *Lobster* do Google Fonts (https://www.google.com/fonts).
+Como antes, confira a ordem e coloque antes do link para `blog/static/css/blog.css`. Essa linha irá importar uma fonte chamada *Roboto* do Google Fonts (https://www.google.com/fonts).
 
-Encontre o bloco com a declaração `h1 a` (o código entre chaves `{` and `}`) dentro do arquivo CSS `blog/static/css/blog.css`.  Agora adicione a linha `font-family: 'Lobster';` entre as chaves, e atualize a página:
+Encontre o bloco com a declaração `h1 a` (o código entre chaves `{` and `}`) dentro do arquivo CSS `blog/static/css/blog.css`.  Agora adicione a linha `font-family: 'Roboto';` entre as chaves, e atualize a página:
 
 
-Agora adicione a linha `font-family: 'Lobster';` no CSS do arquivo `static/css/blog.css` dentro do bloco de declaração `h1 a` (o código entre as chaves `{` e `}`) e atualize a página:
+Agora adicione a linha `font-family: 'Roboto';` no CSS do arquivo `static/css/blog.css` dentro do bloco de declaração `h1 a` (o código entre as chaves `{` e `}`) e atualize a página:
 
 blog/static/css/blog.css
 ```css
 h1 a {
-    color: #FCA205;
-    font-family: 'Lobster';
+    color: #DA691A;
+    font-family: 'Roboto';
 }
 ```
 
@@ -121,15 +121,15 @@ h1 a {
 
 Incrível!
 
-Como mencionado acima, CSS usa o conceito de classes, que basicamente permite que você nomeie parte do código HTML e aplique estilos apenas à esta parte, sem afetar as outras. É super útil se você tiver duas divs, mas eles estão fazendo algo muito diferente (como o seu cabeçalho e seu post). Uma classe pode ajudar você a fazer com que eles tenham um visual diferente.
+Como mencionado acima, CSS usa o conceito de classes, que basicamente permite que você nomeie parte do código HTML e aplique estilos apenas à esta parte, sem afetar as outras. É super útil se você tiver duas `divs`, mas eles estão fazendo algo muito diferente (como o seu cabeçalho e seu post). Uma classe pode ajudar você a fazer com que eles tenham um visual diferente.
 
-Vá em frente e o nomeie algumas partes do código HTML. Adicione uma classe chamada de `page-header` para o `div` que contém o cabeçalho, assim:
+Vá em frente e o nomeie algumas partes do código HTML. Adicione uma classe chamada de `cabecalho-pagina` para a `div` que contém o cabeçalho, assim:
 
 
 blog/templates/blog/post_list.html
 ```html
-<div class="page-header">
-    <h1><a href="/">Django Girls Blog</a></h1>
+<div class="cabecalho-pagina">
+    <h1><a href="/">Blog do AfroPython</a></h1>
 </div>
 ```
 
@@ -138,7 +138,7 @@ E agora, adicione uma classe `post` em sua `div` que contém um post de blog.
 blog/templates/blog/post_list.html
 ```html
 <div class="post">
-    <p>published: {{ post.published_date }}</p>
+    <p>publicado em: {{ post.published_date }}</p>
     <h1><a href="">{{ post.title }}</a></h1>
     <p>{{ post.text|linebreaksbr }}</p>
 </div>
@@ -148,13 +148,13 @@ Agora adicionaremos blocos de declaração para seletores diferentes. Seletores 
 
 blog/static/css/blog.css
 ```css
-.page-header {
+.cabecalho-pagina {
     background-color: #ff9400;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.cabecalho-pagina h1, .cabecalho-pagina h1 a, .cabecalho-pagina h1 a:visited, .cabecalho-pagina h1 a:active {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
@@ -165,7 +165,7 @@ blog/static/css/blog.css
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', cursive;
 }
 
 .date {
@@ -202,7 +202,7 @@ blog/templates/blog/post_list.html
 ```html
 {% for post in posts %}
     <div class="post">
-        <p>published: {{ post.published_date }}</p>
+        <p>publicado em: {{ post.published_date }}</p>
         <h1><a href="">{{ post.title }}</a></h1>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
@@ -219,7 +219,7 @@ blog/templates/blog/post_list.html
             {% for post in posts %}
                 <div class="post">
                     <div class="date">
-                        <p>published: {{ post.published_date }}</p>
+                        <p>publicado em: {{ post.published_date }}</p>
                     </div>
                     <h1><a href="">{{ post.title }}</a></h1>
                     <p>{{ post.text|linebreaksbr }}</p>
