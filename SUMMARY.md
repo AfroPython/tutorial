@@ -80,3 +80,8 @@
   * [Modelo de lista de post de exibição](templates/modelo_de_lista_de_post_de_exibicao.md)
 
 * [CSS - Deixe mais bonito!](css/css.md)
+* [Formulários](formularios/introducao.md)
+ * [URLs e Views] (formularios/url_e_views.md)
+ * [Template] (formularios/template.md)
+ * [Salvando o formulário](formularios/salvando_formularios.md)
+ * [Validação de formulários](formularios/validacao_formularios.md)
