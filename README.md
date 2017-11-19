@@ -26,7 +26,7 @@ Neste momento estamos migrando os tópicos do [tutorial utilizado no Django Girl
 - [x] Integrado - QuerySet e ORM do Django
 - [x] Integrado - Dados dinâmicos no template
 - [x] Integrado - Templates
-- [ ] Para fazer - CSS - Deixe mais bonito!
+- [ ] PR aberto - CSS - Deixe mais bonito!
 - [ ] Para fazer - Estendendo os templates
 - [ ] Para fazer - Amplie sua aplicação
 - [ ] Para fazer - Git
