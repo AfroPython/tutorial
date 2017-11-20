@@ -9,7 +9,7 @@ def oi():
     print('Olá!')
     print('Como vai você?')
 
-hi()
+oi()
 ```
 
 Ok, nossa primeira função está pronta!
