@@ -20,7 +20,7 @@ Você está se perguntando por que colocamos dois sinais de igual ``==`` lado a 
 
 Nós usamos um único ``=`` para atribuir valores a variáveis.
 
-Você sempre, sempre precisa colocar dois ``==`` se quiser verificar se as coisas são iguais. Também é possível afirmar que as coisas são desiguais entre si. Para isso, usamos o símbolo ``!=``, conforme mostrado no exemplo acima.
+Você sempre, sempre precisa colocar dois ``==`` se quiser verificar se as coisas são iguais. Também é possível afirmar que as coisas são diferentes entre si. Para isso, usamos o símbolo ``!=``, conforme mostrado no exemplo acima.
 
 Dê ao Python mais duas tarefas:
 ```

@@ -20,4 +20,4 @@ Funcionou! Usamos a função ``str`` dentro da função ``len``.
 - A **função str** converte as coisas em strings
 - A **função int** converte as coisas em números inteiros
 
-**Importante:** podemos converter números em texto, mas nós não podemos, necessariamente, converter texto em números - o que ``int('hello')`` quer dizer?
+**Importante:** podemos converter números em texto, mas nós não podemos, necessariamente, converter texto em números - o que ``int('hello')`` quer dizer? A string "hello" não representa um número. Já int('300') é possível.

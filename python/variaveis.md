@@ -47,6 +47,6 @@ Traceback (most recent call last):
 NameError: name 'ciade' is not defined
 ```
 
-Um erro! Como você pode ver, Python tem diferentes tipos de erros e este é chamado **NameError**. Python dará este erro se você tentar usar uma variável que não foi definida ainda. Se você encontrar esse erro depois, veja se no seu código se você não digitou o nome de uma variável errado.
+Um erro! Como você pode ver, Python tem diferentes tipos de erros e este é chamado **NameError**. Python dará este erro se você tentar usar uma variável que não foi definida ainda. Se você encontrar esse erro depois, verifique se você digitou o nome de uma variável errado.
 
 Brinque com isso por um tempo e veja o que você consegue fazer!

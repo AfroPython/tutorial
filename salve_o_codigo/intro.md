@@ -1,5 +1,5 @@
 # Salvando o código
-Até agora nós escrevemos todo nosso código em um interpretador python, que nos limita a uma linha de código em um momento. Programas normais são salvos em arquivos e executados pelo nosso **interpretador** de linguagem de programação ou **compilador**. Até agora já corremos nossos programas de uma linha de cada vez no **interpretador Python**. Nós vamos precisar de mais de uma linha de código para as próximas tarefas, então precisaremos rapidamente:
+Até agora nós escrevemos todo nosso código em um interpretador python, que nos limita a uma linha de código em um momento. Programas normais são salvos em arquivos e executados pelo nosso **interpretador** de linguagem de programação ou **compilador**. Até agora só executamos nossos programas de uma linha de cada vez no **interpretador Python**. Nós vamos precisar de mais de uma linha de código para as próximas tarefas, então precisaremos rapidamente:
 
 - Sair do interpretador Python
 - Abrir o editor de código
