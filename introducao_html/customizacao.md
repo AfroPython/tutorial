@@ -16,11 +16,11 @@ blog/templates/blog/post_list.html
 ```html
 <html>
     <head>
-        <title>AfroPython blog</title>
+        <title>Blog do AfroPython</title>
     </head>
     <body>
         <div>
-            <h1><a href="">AfroPython Blog</a></h1>
+            <h1><a href="">Blog do AfroPython</a></h1>
         </div>
 
         <div>
