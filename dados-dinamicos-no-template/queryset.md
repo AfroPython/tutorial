@@ -1,6 +1,6 @@
 # QuerySet
 
-Você já deve estar familiarizado com o modo que os QuerySets funcionam. Nós conversamos sobre isso no capítulo ORM do Django (QuerySets). Agora nós estamos interessados em uma lista de posts que são publicados e classificados por `published_date`, certo? Nós já fizemos isso no capítulo QuerySets!
+Você já deve estar familiarizado com o modo que os QuerySets funcionam. Nós conversamos sobre isso no capítulo **Queryset e ORM do Django**. Agora nós estamos interessados em uma lista de posts que são publicados e classificados por `published_date`, certo? Nós já fizemos isso no capítulo QuerySets!
 
 ```
 Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
