@@ -14,7 +14,7 @@ True
 True
 ```
 
-Demos ao Python alguns números para comparar. Como você pode ver, Python pode comparar não só números mas também resultados de métodos. Legal, hein?
+Demos ao Python alguns números para comparar. Legal, hein?
 
 Você está se perguntando por que colocamos dois sinais de igual ``==`` lado a lado para comparar se os números são iguais?
 
