@@ -8,7 +8,7 @@ Digamos que queremos criar uma nova variável chamada ``nome``:
 >>> nome = "Ola"
 ```
 
-Vê? É fácil! É só fazer: nome igual a Ola.
+Viu? É fácil! É só fazer: nome igual a Ola.
 
 Como você percebeu, seu programa não retornou nada como fez anteriormente. Então como sabemos que a variável realmente existe? Simplesmente digite nome e tecle Enter:
 
