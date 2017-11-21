@@ -51,7 +51,7 @@ Como as listas, usar o método `len()` em dicionários retorna o número de pare
 4
 ```
 
-Espero que agora faça sentido até agora. :) Pronto(a) para mais diversão com dicionários? Pule na próxima linha para coisas incríveis.
+Espero que tudo faça sentido até agora. :) Pronto(a) para mais diversão com dicionários? Pule na próxima linha para coisas incríveis.
 
 Você pode usar o comando `pop()` para deletar um item no dicionário. Digamos, se você quer excluir a entrada correspondente a chave `'numeros_favoritos'`, basta digitar o seguinte comando:
 ```
@@ -64,8 +64,6 @@ Como você pode ver no retorno, o par chave-valor correspondente à chave `'nume
 
 Além disso você pode mudar o valor associado com uma chave já criada no dicionário. Digite:
 ```
->>> participante.pop('numeros_favoritos')
->>> participante
 >>> participante['pais'] = 'Alemanha'
 >>> participante
 {'pais': 'Alemanha', 'linguagem_favorita': 'Python', 'nome': 'Ola'}
