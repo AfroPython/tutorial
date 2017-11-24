@@ -26,7 +26,7 @@ Usando aspas duplas:
 
 ou escapando apóstrofo com uma barra invertida ( \ ):
 ```
->>> "Foi a gota d\'água"
+>>> 'Foi a gota d\'água'
 "Foi a gota d'água"
 ```
 
