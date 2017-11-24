@@ -14,9 +14,11 @@ $
 
 Isso vai colocá-la(o) no prompt de comando.
 
-Nós precisamos criar um novo arquivo para escrever o código.
+Nós precisamos criar um novo arquivo para escrever o código, para isso clique com o botão direito em cima de seu container, depois em Create File:
 
-Vamos chamar o arquivo `python_intro.py` e salvá-lo. Podemos nomear o arquivo de tudo o que quisermos, o importante aqui é ter certeza que o arquivo termina com `py`, isto diz nosso computador que é um `arquivo executável de python` e Python pode executá-lo.
+![Criar arquivo](../images/salve_o_codigo/create_file.png)
+
+Vamos chamar o arquivo de `python_intro.py` e salvá-lo. Podemos nomear o arquivo de tudo o que quisermos, o importante aqui é ter certeza que o arquivo termina com `py`, isto diz nosso computador que é um `arquivo executável de python` e Python pode executá-lo.
 
 Agora você pode escrever seu programa.
 ```
