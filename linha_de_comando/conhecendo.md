@@ -5,7 +5,7 @@ Para começar alguns experimentos, precisamos abrir a nossa interface de linha d
 #### Codeanywhere
 Clique com o botão direito em cima de seu container, depois em SSH Terminal:
 
-[imagem do ssh terminal]
+![imagem do ssh terminal](../images/linha_de_comando/ssh_terminal.png)
 
 #### Prompt
 Agora você deve ver uma janela preta que está à espera de seus comandos.
