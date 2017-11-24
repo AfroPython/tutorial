@@ -26,7 +26,7 @@ h1 a {
 
 `h1 a` é um seletor de CSS. Isso significa que nós estamos aplicando nossos estilos para qualquer elemento `a` dentro de um elemento `h1`. Então quando tivermos no código algo como `<h1><a href="">link</a></h1>`, o estilo `h1 a` será aplicado. Neste caso nós estamos dizendo para mudar a cor para `#DA691A`, que é laranja. Claro, você pode colocar a cor que você quiser aqui!
 
-Em um arquivo CSS podemos determinar estilos para elementos no arquivo HTML. A primeira maneira de identificar elementos é pelo nome do elemento. Você deve lembrar dessas tags na seção de HTML. Coisas como `a`, `h1` e  `body` são todas exemplos de nomes de elementos. Nós também identificamos elementos pelo atributo `class` ou o atributo `id`. Classe e idenfiticador(id) são nomes que você mesmo dá ao elemento. Classes definem grupos de elementos, e ids apontam para elementos específicos. Por exemplo, você poderia identificar a seguinte tag usando a tag `a`, a classe `link_externo`, ou o id `link_wikipedia_do_django`.
+Em um arquivo CSS podemos determinar estilos para elementos no arquivo HTML. A primeira maneira de identificar elementos é pelo nome do elemento. Você deve lembrar dessas tags na seção de HTML. Coisas como `a`, `h1` e  `body` são todas exemplos de nomes de elementos. Nós também identificamos elementos pelo atributo `class` ou o atributo `id`. Classe e identificador(id) são nomes que você mesmo dá ao elemento. Classes definem grupos de elementos, e ids apontam para elementos específicos. Por exemplo, você poderia identificar a seguinte tag usando a tag `a`, a classe `link_externo`, ou o id `link_wikipedia_do_django`.
 
 ```html
 <a href="https://en.wikipedia.org/wiki/Django" class="link_externo" id="link_wikipedia_do_django">
@@ -51,6 +51,8 @@ blog/templates/blog/post_list.html
 O navegador lê os arquivos na ordem que eles são informados, então nós temos que nos certificar que esse é o lugar certo. Senão, o código em nosso arquivo pode sobrescrever o código nos arquivos do Bootstrap. Só dissemos ao nosso template onde se encontra nosso arquivo CSS.
 
 Agora, seu arquivo deve ficar assim:
+
+![Blog com as cores do AfroPython](images/blog-com-cores-afropython.png)
 
 blog/templates/blog/post_list.html
 ```html
