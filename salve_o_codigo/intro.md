@@ -12,7 +12,7 @@ Para sair do interpretador Python que estamos usando, simplesmente digite a fun�
 $
 ```
 
-Isso vai colocá-la no prompt de comando.
+Isso vai colocá-la(o) no prompt de comando.
 
 Nós precisamos criar um novo arquivo para escrever o código.
 
