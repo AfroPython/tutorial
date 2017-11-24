@@ -24,7 +24,7 @@ Usando aspas duplas:
 "Foi a gota d'água"
 ```
 
-ou escapando apóstrofo com uma barra invertida (\):
+ou escapando apóstrofo com uma barra invertida ( \ ):
 ```
 >>> "Foi a gota d\'água"
 "Foi a gota d'água"
