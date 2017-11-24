@@ -133,7 +133,7 @@ Vamos criar um arquivo em `blog/templates/blog` chamado `post_detail.html`.
 
 Será algo parecido com isto:
 
-blog/templates/blog/post_detail.ht
+blog/templates/blog/post_detail.html
 ```html
 {% extends 'blog/base.html' %}
 
