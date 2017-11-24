@@ -19,7 +19,7 @@ Type "copyright", "credits" or "license" for more information.
 ## Seu primeiro comando Python!
 Depois de executar o comando Python, o prompt mudou para ``>>>``. Para nós, isso significa que por enquanto só utilizaremos comandos na linguagem Python. Você não precisa digitar ``>>>`` - O Python fará isso por você.
 Se você deseja sair do console do Python, apenas digite ``exit()`` ou use o atalho ``Ctrl + D`` no Mac/Linux. Então você não vai ver mais o ``>>>``.
-Mas agora não queremos sair da linha de comando do Python. Queremos aprender mais sobre ele. Vamos, então, fazer algo muito simples. Por exemplo, tente digitar alguma operação matemática, como ``2 + 3`` e aperte Enter.
+Mas agora não queremos sair da linha de comando do Python. Queremos aprender mais sobre ele. Entre novamente em nosso interpretador (digite ``python3``). Vamos, então, fazer algo muito simples. Por exemplo, tente digitar alguma operação matemática, como ``2 + 3`` e aperte Enter.
 
 ```
 >>> 2 + 3
