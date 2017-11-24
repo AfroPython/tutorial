@@ -2,7 +2,7 @@
 
 Não queremos deixar uma bagunça, então vamos remover tudo o que fizemos até agora.
 
-Primeiro precisamos voltar para a pasta Desktop:
+Primeiro precisamos voltar para nosso workspace (área de trabalho):
 
 ```
 $ cd ..
@@ -17,14 +17,14 @@ $ pwd
 /home/cabox/workspace
 ```
 
-Agora é hora de excluir o diretório **afropython**.
+Agora é hora de excluir o diretório **minhapasta**.
 
 **Atenção:** A exclusão de arquivos usando del, rmdir ou rm é irrecuperável, significando _Arquivos excluídos vão embora para sempre!_
 
 Então, tenha cuidado com este comando.
 
 ```
-$ rm -r afropython
+$ rm -r workspace
 ```
 
 Pronto! Para ter certeza que a pasta foi excluída, vamos checar:
@@ -33,4 +33,4 @@ Pronto! Para ter certeza que a pasta foi excluída, vamos checar:
 $ ls
 ```
 
-Por enquanto é isso! 
+Por enquanto é isso!
