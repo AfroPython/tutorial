@@ -24,7 +24,7 @@ Agora é hora de excluir o diretório **minhapasta**.
 Então, tenha cuidado com este comando.
 
 ```
-$ rm -r workspace
+$ rm -r minhapasta
 ```
 
 Pronto! Para ter certeza que a pasta foi excluída, vamos checar:
