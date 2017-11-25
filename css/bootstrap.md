@@ -8,7 +8,7 @@ Foi escrito por programadores que trabalhavam no Twitter e agora é desenvolvido
 
 # Instalar Bootstrap
 
-Para instalar o Bootstrap, você precisa adicionar isso ao seu cabeçalho <head>, dentro do seu arquivo `.html`:
+Para instalar o Bootstrap, você precisa adicionar isso ao seu cabeçalho `<head>`, dentro do seu arquivo `.html`:
 
 blog/templates/blog/post_list.html
 
