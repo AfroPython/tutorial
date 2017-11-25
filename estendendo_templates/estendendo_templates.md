@@ -1,6 +1,6 @@
 # Estendendo os templates
 
-Outra coisa boa que o Django tem pra você é o __template extending__. O que isso significa? Isso significa que você pode usar as mesmas partes do seu HTML em diferentes páginas do seu site.
+Outra coisa boa que o Django tem pra você é o __template extending__(Extensão de template em português). O que isso significa? Isso significa que você pode usar as mesmas partes do seu HTML em diferentes páginas do seu site.
 
 Templates são úteis quando você quer usar a mesma informação/layout em mais de um lugar. Você não precisa ficar se repetindo em cada arquivo. E, se você quiser mudar alguma coisa, não precisa fazer isso em todos os templates, apenas em um!
 
@@ -73,7 +73,7 @@ blog/templates/blog/base.html
 </body>
 ```
 
-{% raw %}Basicamente nós substituímos tudo entre `{% for post in posts %}{% endfor %}` por:{% endraw %}
+Basicamente nós substituímos tudo entre `{% for post in posts %}{% endfor %}` por:
 
 blog/templates/blog/base.html
 ```html
@@ -83,7 +83,7 @@ blog/templates/blog/base.html
 
 Mas, por quê? Você acabou de criar um `block` (bloco)! Você usou uma tag de template `{% block %}` para criar uma área onde será inserido HTML. Esse HTML virá de outro template que estende esse template (`base.html`). Nós vamos te mostrar como fazer isso já já.
 
-Agora salve `base.html` e abra o arquivo `blog/templates/blog/post_list.html` novamente. {% raw %} Você irá remover tudo que estiver acima de `{% for post in posts %}` e abaixo de `{% endfor %}`. Quando terminar, o arquivo ficará dessa forma:{% endraw %}
+Agora salve `base.html` e abra o arquivo `blog/templates/blog/post_list.html` novamente. Você irá remover tudo que estiver acima de `{% for post in posts %}` e abaixo de `{% endfor %}`. Quando terminar, o arquivo ficará dessa forma:
 
 blog/templates/blog/post_list.html
 ```html
@@ -101,7 +101,7 @@ blog/templates/blog/post_list.html
 Nós queremos usar essa parte de nosso template para todos os blocos "content".
 Hora de adicionar tags de bloco ("block") nesse arquivo!
 
-{% raw %}Você quer que sua tag de bloco ("block") corresponda com a tag em seu arquivo `base.html`. Você também quer que ela inclua todo o código que pertence ao seus blocos "content". Para fazer isso, coloque tudo entre `{% block content %}` e `{% endblock %}`. Dessa forma:{% endraw %}
+Você quer que sua tag de bloco ("block") corresponda com a tag em seu arquivo `base.html`. Você também quer que ela inclua todo o código que pertence ao seus blocos "content". Para fazer isso, coloque tudo entre `{% block content %}` e `{% endblock %}`. Dessa forma:
 
 blog/templates/blog/post_list.html
 ```html
