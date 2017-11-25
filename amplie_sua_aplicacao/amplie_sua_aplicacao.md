@@ -41,7 +41,8 @@ blog/templates/blog/post_list.html
 
 Agora quando formos para: `http://<<sua_url>>.codeanyapp.com:8000/` teremos um erro (como esperado, já que não temos uma URL ou uma *view* para `post_detail`). Vai se parecer com isso:
 
-![NoReverseMatch error](images/no_reverse_match2.png)
+![NoReverseMatch error](images/no-reverse-match-error.png)
+
 
 ## Criando a URL para detalhe da postagem
 
@@ -70,11 +71,11 @@ O trecho ``^post/(?P<pk>\d+)/$`` parece assustador, mas não se preocupe – nó
 
 Isso significa que, se você digitar `http://<<sua_url>>.codeanyapp.com:8000/post/5/` em seu navegador, Django vai entender que você está procurando uma *view* chamada `post_detail` e transferir a informação de que `pk` é igual a `5` para aquela *view*.
 
-`pk` é uma abreviação para `primary key` (chave primária). Esse é o nome geralmente usado nos projetos feitos em Django. Mas você pode dar o nome que quiser às variáveis (lembre-se: minúsculas e `_` ao invés de espaços em branco!). Por exemplo em vez de `(?P<pk>\d+)` podemos ter uma variável`post_id`, então esta parte ficaria como: `(?P<post_id>\d+)`.
+`pk` é uma abreviação para `primary key` (chave primária). Esse é o nome geralmente usado nos projetos feitos em Django. Mas você pode dar o nome que quiser às variáveis (lembre-se: minúsculas e `_` ao invés de espaços em branco!). Por exemplo em vez de `(?P<pk>\d+)` podemos ter uma variável `post_id`, então esta parte ficaria como: `(?P<post_id>\d+)`.
 
-OK, nós adicionamos um novo padrão de URL ao `blog/urls.py`! Vamos atualizar a página: http://<<sua_url>>.codeanyapp.com:8000/ Boom! O servidor parou de funcionar novamente. Dê uma olhada no console – como esperado, temos outro erro!
+OK, nós adicionamos um novo padrão de URL ao `blog/urls.py`! Vamos atualizar a página: `http://<<sua_url>>.codeanyapp.com:8000/` Boom! O servidor parou de funcionar novamente. Dê uma olhada no console – como esperado, temos outro erro!
 
-![AttributeError](images/attribute_error2.png)
+![AttributeError](images/attribute-error.png)
 
 Você se lembra qual é o próximo passo? Claro: adicionar uma view!
 
@@ -86,16 +87,18 @@ Agora queremos receber apenas um post do blog. Para isso podemos usar `querysets
 
 blog/views.py
 ```
-Post.objects.get(pk=pk)
+def post_detail(request, pk):
+    Post.objects.get(pk=pk)
+
 ```
 
 Mas este código tem um problema. Se não houver nenhum `Post` com a `chave primária` (`pk`) fornecida teremos um erro horroroso!
 
-![DoesNotExist error](images/does_not_exist2.png)
+![DoesNotExist error](images/does-not-exist-error.png)
 
 Não queremos isso! Mas, claro, o Django vem com algo que vai lidar com isso para nós: `get_object_or_404`. Caso não haja nenhum `Post` com o `pk` informado, ele exibirá uma página muito mais agradável (chamada `Page Not Found 404` - página não encontrada).
 
-![Page not found](images/404_2.png)
+![Página não encontrada](images/pagina-nao-encontrada.png)
 
 A boa notícia é que você realmente pode criar sua própria página de `Page not found` e torná-la tão bonita quanto você quiser. Mas isso não é super importante agora, então nós vamos pular essa parte.
 
@@ -119,11 +122,11 @@ def post_detail(request, pk):
 
 Sim. Está na hora de atualizar a página: http://<<sua_url>>.codeanyapp.com:8000/
 
-![Post list view](images/post_list2.png)
+![Post list view](images/listando-postagens.png)
 
 Funcionou! Mas o que acontece quando você clica em um link no título do post do blog?
 
-![TemplateDoesNotExist error](images/template_does_not_exist2.png)
+![TemplateDoesNotExist error](images/pagina-nao-encontrada-detalhe.png)
 
 Ah não! Outro erro! Mas nós já sabemos como lidar com isso, não é? Precisamos adicionar um template!
 
@@ -156,6 +159,6 @@ Mais uma vez estamos estendendo `base.html`. No bloco `content` queremos exibir 
 
 Ok, podemos atualizar nossa página e ver se o  `TemplateDoesNotExist`já se foi.
 
-![Post detail page](images/post_detail2.png)
+![Post detail page](images/detalhe-da-postagem.png)
 
 Yay! Funciona!
