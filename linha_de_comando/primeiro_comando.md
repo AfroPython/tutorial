@@ -10,7 +10,7 @@ Depois tecla Enter. Essa é nossa saída:
 
 ```
 $ whoami
-olasitarska
+cabox
 ```
 
 Como você pode ver, o computador só apresentou seu nome de usuário. Elegante, né?:)
