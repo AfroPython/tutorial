@@ -239,6 +239,6 @@ Uhuu! Ficou incrível, né? Olhe para o código que nós acabamos de colar para 
 Não tenha medo de brincar com esse CSS um pouco e tente mudar algumas coisas. Brincar com o CSS pode ajudar você a entender as
 diferentes coisas que estão sendo feitas. Se você bagunçar tudo, não se preocupe - você sempre pode voltar atrás!
 
-Nós realmente recomendamos que faça esse curso on-line [Codeacademy HTML & CSS Course](https://www.codecademy.com/tracks/web). Ele pode ajudar você a aprender tudo sobre como tornar seus sites mais bonitos com CSS.
+Nós realmente recomendamos que faça esse curso on-line [Curso de HTML & CSS do Code Academy](https://www.codecademy.com/pt-BR/tracks/web). Ele pode ajudar você a aprender tudo sobre como tornar seus sites mais bonitos com CSS.
 
 Pronto para o próximo capítulo?! :)
