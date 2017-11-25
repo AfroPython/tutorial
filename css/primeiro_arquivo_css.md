@@ -52,8 +52,6 @@ O navegador lê os arquivos na ordem que eles são informados, então nós temos
 
 Agora, seu arquivo deve ficar assim:
 
-![Blog com as cores do AfroPython](images/blog-com-cores-afropython.png)
-
 blog/templates/blog/post_list.html
 ```html
 {% load staticfiles %}
@@ -82,7 +80,7 @@ blog/templates/blog/post_list.html
 
 OK, salve o arquivo e atualize o site!
 
-![Figure 14.2](images/color2.png)
+![Blog com as cores do AfroPython](images/blog-com-cores-afropython.png)
 
 Bom trabalho! Talvez a gente também queira dar um pouco de ar ao nosso site e aumentar a margem do lado esquerdo? Vamos tentar!
 
@@ -119,7 +117,7 @@ h1 a {
 }
 ```
 
-![Figure 14.3](images/font.png)
+![Blog com a fonte alterada](images/fonte-roboto.png)
 
 Incrível!
 
@@ -234,7 +232,7 @@ blog/templates/blog/post_list.html
 
 Salve esses arquivos e atualize seu site.
 
-![Figure 14.4](images/final.png)
+![Blog com padding](images/blog-com-padding.png)
 
 Uhuu! Ficou incrível, né? Olhe para o código que nós acabamos de colar para encontrar os lugares aonde nós adicionamos classes no HTML e as usamos no CSS. Aonde você faria a mudança para que a data ficasse com a cor turquesa ?
 
