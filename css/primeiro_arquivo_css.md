@@ -93,7 +93,7 @@ body {
 
 Adicione isto ao seu arquivo CSS, salve e veja como ele funciona!
 
-![Figure 14.3](images/margin2.png)
+![Blog com padding](images/blog-com-padding.png)
 
 Talvez a gente possa customizar a fonte no nosso cabeçalho? Cole na seção `<head>` do arquivo `blog/templates/blog/post_list.html` o seguinte:
 
@@ -232,7 +232,7 @@ blog/templates/blog/post_list.html
 
 Salve esses arquivos e atualize seu site.
 
-![Blog com padding](images/blog-com-padding.png)
+![Blog com CSS completo](images/blog-com-css-completo.png)
 
 Uhuu! Ficou incrível, né? Olhe para o código que nós acabamos de colar para encontrar os lugares aonde nós adicionamos classes no HTML e as usamos no CSS. Aonde você faria a mudança para que a data ficasse com a cor turquesa ?
 
