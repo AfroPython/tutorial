@@ -38,16 +38,16 @@ E está pronto! Hora de iniciar o servidor web e ver se nosso site está funcion
 
 Você precisa estar no diretório que contém o arquivo `manage.py` (no diretório afropython). No console, nós podemos iniciar o servidor web executando:
 ```
-~/afropython$ python3 manage.py runserver 0.0.0.0:8000
+~/afropython$ python3 manage.py runserver 0.0.0.0:8080
 ```
 
-Para acessar o site no navegador, utilize a primeira url que o codeanywhere mostra na página de informação, adicionando a porta 8000 no final da url:
+Para acessar o site no navegador, utilize a primeira url que o codeanywhere mostra na página de informação, adicionando a porta 8080 no final da url:
 
 ![URL servidor](../images/django/url_server.png)
 
 Então, no exemplo, a url fica:
 ```
-http://treinamento-carolinemoers694501.codeanyapp.com:8000
+http://treinamento-carolinemoers694501.codeanyapp.com:8080
 ```
 
 O servidor web vai assumir seu prompt de comando até você pará-lo: pode abrir uma nova janela do terminal, ou parar o servidor de web, alternando de volta para a janela na qual está executando e pressionando CTRL + C - botões de controle e C juntos.

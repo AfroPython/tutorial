@@ -14,7 +14,7 @@ File "python_intro.py", line 2
 SyntaxError: unexpected EOF while parsing
 ```
 
-Python espera que nós forneçamos mais instruções que serão supostamente executadas caso a condição `3 > 2` venha a ser verdadeira (ou `True` nesse caso). Vamos tentar fazer o Python imprimir "It works!". Altere o seu código no seu arquivo **python_intro.py** para isto:
+Python espera que nós forneçamos mais instruções que serão supostamente executadas caso a condição `3 > 2` venha a ser verdadeira (ou `True` nesse caso). Vamos tentar fazer o Python imprimir "Isso funciona!". Altere o seu código no seu arquivo **python_intro.py** para isto:
 ```
 if 3 > 2:
     print('Isso funciona!')

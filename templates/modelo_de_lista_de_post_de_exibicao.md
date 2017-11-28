@@ -34,7 +34,7 @@ Funciona! Mas nós queremos que eles sejam exibidos como os posts estáticos, co
 
 ```
 <div>
-    <h1><a href="/">Django Girls Blog</a></h1>
+    <h1><a href="/">Blog do AfroPython</a></h1>
 </div>
 
 {% for post in posts %}

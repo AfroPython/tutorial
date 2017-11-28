@@ -17,7 +17,7 @@ urlpatterns = [
 ]
 ```
 
-Como você pode ver, estamos agora atribuindo uma `view` chamada `post_list` para `^$` URL. Essa expressão regular corresponderá a `^` (um começo) seguido por `$` (fim) - então somente uma seqüência vazia irá corresponder. E isso é correto, porque em resolvedores de Django url, `http://<<sua_url>>.codeanyapp.com:8000/` não é uma parte da URL. Este padrão irá mostrar o Django que `views.post_list` é o lugar certo para ir, se alguém entra em seu site no endereço `http://<<sua_url>>.codeanyapp.com:8000 /`.
+Como você pode ver, estamos agora atribuindo uma `view` chamada `post_list` para `^$` URL. Essa expressão regular corresponderá a `^` (um começo) seguido por `$` (fim) - então somente uma seqüência vazia irá corresponder. E isso é correto, porque em resolvedores de Django url, `http://<<sua_url>>.codeanyapp.com:8080/` não é uma parte da URL. Este padrão irá mostrar o Django que `views.post_list` é o lugar certo para ir, se alguém entra em seu site no endereço `http://<<sua_url>>.codeanyapp.com:8080 /`.
 
 Tudo certo? Abra sua página no seu navegador pra ver o resultado.
 

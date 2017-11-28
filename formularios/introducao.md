@@ -68,8 +68,9 @@ blog/templates/blog/base.html
     <body>
         <div class="cabecalho-pagina">
             <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-            <h1><a o Girls Blog</a></h1>
-        </div class="content container">
+            <h1><a href="/">Blog do AfroPython</a></h1>
+        </div>
+        <div class="content container">
             <div class="row">
                 <div class="col-md-8">
                     {% block content %}
@@ -81,4 +82,4 @@ blog/templates/blog/base.html
 </html>
 ```
 
-Depois de salvar e recarregar a página `http://<<sua_url>>.codeanyapp.com:8000/` você verá, obviamente, um erro familiar: `NoReverseMatch`, certo?
+Depois de salvar e recarregar a página `http://<<sua_url>>.codeanyapp.com:8080/` você verá, obviamente, um erro familiar: `NoReverseMatch`, certo?

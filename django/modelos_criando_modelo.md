@@ -48,7 +48,7 @@ Voltando ao código... Que tal `def publish(self):`? É exatamente o nosso méto
 - `def`: significa que se trata de um função/método
 - `publish`: é o nome do método
 
-Você pode alterar, se quiser. A regra é que usamos letras minúsculas e sublinhados em vez de espaços em branco (ou seja, se você quer ter um método que calcula o preço médio, você poderia chamá-lo `calculate_average_price`).
+Você pode alterar, se quiser. A regra é que usamos letras minúsculas e sublinhados em vez de espaços em branco (ou seja, se você quer ter um método que calcula o preço médio, você poderia chamá-lo `calcula_preco_medio`).
 
 Métodos muitas vezes retornam algo, para isso usamos `return`. Um exemplo é método `__str__`. Nesse cenário, quando chamamos `__str__()` teremos um texto (**string**), com um título do Post.
 
