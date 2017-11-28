@@ -1,9 +1,9 @@
 ## Criando uma pasta
 
-Que tal criar um diretório AfroPython na sua área de trabalho? Você pode fazer assim:
+Que tal criar um diretório(pasta) chamado ** minhapasta ** na sua máquina remoto? Você pode fazer assim:
 
 ```
-$ mkdir afropython
+$ mkdir minhapasta
 ```
 
-Este comando vai criar uma pasta com o nome afropython no nosso desktop. Vamos verificar se ela está lá?
+Este comando vai criar uma pasta com o nome minhapasta no nosso projeto chamado afropython. Vamos verificar se ela está lá?
