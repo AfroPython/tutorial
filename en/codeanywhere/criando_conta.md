@@ -1,7 +1,7 @@
-# Crie uma conta
+# Create an account
 
-O primeiro passo para utilizarmos o Codeanywhere é criar uma conta. Acesse o site e clique no botão *"Sign up"* para se registrar. Você pode usar seu e-mail ou uma conta: Google, Facebook, Github ou BitBucket.
+The first step to use Codeanywhere is creating an account. Access the website and click on the button *"Sign up" to register. You can use your email or an existing account: Google, Facebook, Github or BitBucket.
 
-# Valide seu e-mail
+# Confirm your email
 
-É necessário que você valide seu e-mail, então certifique-se de ter acesso a ele.
+You will need to confirm your email, so make sure you have access to it.

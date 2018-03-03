@@ -1,3 +1,3 @@
-# O que é o Codeanywhere?
+# What is Codeanywhere?
 
-O Codeanywhere nos oferece um computador como outro qualquer, para podermos desenvolver nosso código. O diferencial dele é, quando vai utilizá-lo, você já vai escolher o sistema operacional e alguns recursos que já vem instalados (por exemplo, o próprio Python). Além disso, como vamos desenvolver nosso site em um computador ** remoto **, quando você sair da oficina AfroPython, você vai poder acessar seu código de qualquer outro computador conectado à internet, para continuar aperfeiçoando-o.
+Codeanywhere offers us a computer like any other, so we can develop our code. The thing is, when you use it, you can choose which operating system you're going to use and some resources already are installed (for instance, Python itself). Besides that, as we're going to be developing our website in a ** remote ** computer, when you leave AfroPython workshop, you can access your code from any other computer connected to the internet and you can continue working on it.

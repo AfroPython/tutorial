@@ -1,8 +1,9 @@
-# O que você irá aprender durante o tutorial?
+# What will your learn during this tutorial?
 
-Quando você tiver terminado o tutorial você terá uma aplicação web simples e funcional: seu próprio blog. Nós vamos mostrar como colocá-lo online, para que outros vejam seu trabalho!
-Ele se parecerá (mais ou menos) com isso:
 
-![Blog finalizado](images/blog-finalizado.png)
+Once you've finished the tutorial, you will have a small functional application: your own blog! We will show you how to put it online, so others can see your work. 
+It will (kinda) look like this:
 
-Vamos lá!
+![Finished blog](images/blog-finalizado.png)
+
+Let's do this!

@@ -1,7 +1,7 @@
 # Codeanywhere
 
-## Preparação do ambiente
+## Preparing the environment
 
-Para desenvolver o nosso projeto sem ter de instalar nada direto na máquina que estamos utilizando, vamos utilizar uma ferramenta chamada Codeanywhere.
+We're going to be using a tool called Codeanywhere so we can develop our project without having to install anything on the machine we're using. 
 
-Você pode acessá-la aqui: [https://codeanywhere.com](https://codeanywhere.com)
+You can access it here: [https://codeanywhere.com](https://codeanywhere.com)

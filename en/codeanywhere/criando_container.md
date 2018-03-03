@@ -1,9 +1,9 @@
-# Criando um container
+# Creating a container
 
-## Vá para o editor e crie um novo container
+## Go to the editor and create a new container
 
-Clique no botão "Editor". Deve abrir o assistente de conexão (Connection Wizard) - se isso não acontecer, você pode encontrá-lo em File/New Connection/Container.
+Click on the "Edit" button. It should open the Connection Wizard - if that doesn't happend, you can find it in File/New Connection/Container.
 
-Na janela do Connection Wizard, dê o nome "afropython" a seu projeto e use a caixa de busca (search stack) para pesquisar por python3. Apareceram várias opções, né? Então, para que tudo dê certinho, vamos nos certificar de escolher aquela que diz "Python 3" **E** "Ubuntu 14.04". Ou seja, vamos utilizar um computador que já tem o GNU/Linux Ubuntu instalado, com a versão mais recente do Python. Após selecionar corretamente, clique em "Create" (você pode ter de usar a barra de rolagem para encontrar esse botão, que fica lá embaixo).
+In the Connection Wizard window, name your project "afropython" and use the search stack to search for python3. There are a lot of things there, right? So, to make sure everything works out, let's choose the one that says "Python 3" **and** "Ubuntu 14.04". That means we're going to use a computer that already has GNU/Linux Ubuntu installed in it, with the most recent version of Python. After selecting it, click on "Create" (you can use the scroll bar to find that button, it's down there).
 
-![criacao_do_container](criacao_do_container.png)
+![creating_the_container](criacao_do_container.png)
