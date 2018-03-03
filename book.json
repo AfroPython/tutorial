@@ -1,0 +1,17 @@
+{
+    "pdf": {
+        "fontSize": 16
+    },
+    "plugins": [
+        "github@2.0.0",
+        "language-picker"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/AfroPython/tutorial"
+        },
+        "language-picker": {
+            "grid-columns": 2
+        }
+    }
+}
