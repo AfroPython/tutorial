@@ -1,17 +1,18 @@
-# Amplie sua aplicação
+# Extend your application
 
-Já concluímos todos os passos necessários para a criação do nosso site: sabemos como criar um modelo, uma url, uma view e um template. Também sabemos como melhorar a aparência do nosso website.
+We've already completed all the different steps necessary for the creation of our website: we know how to write a model, url, view and template. We also know how to make our website pretty.
 
-Hora de praticar!
+Time to practice!
 
-A primeira coisa que precisamos no nosso blog é, obviamente, uma página para mostrar uma postagem, certo?
+The first thing we need in our blog is, obviously, a page to display one post, right?
 
-Já temos um modelo de `Post`, então não precisamos adicionar nada ao `models.py`.
+We already have a `Post` model, so we don't need to add anything to `models.py`.
 
-## Criar um link de template para um "detalhe" da postagem
+## Create a template link to a post's detail
 
-Vamos começar com a adição de um link dentro do arquivo `blog/templates/blog/post_list.html`. Neste momento ele deve se parecer com:
-blog/templates/blog/post_list.html
+We will start with adding a link inside `blog/templates/blog/post_list.html` file. So far it should look like this:
+
+{% filename %}blog/templates/blog/post_list.html{% endfilename %}
 ```html
 {% extends 'blog/base.html' %}
 
@@ -28,27 +29,27 @@ blog/templates/blog/post_list.html
 {% endblock %}
 ```
 
-{% raw %}Nós queremos ter um link com o título da postagem na lista de postagens para a página de detalhes da postagem. Vamos mudar `<h1><a href="">{{ post.title }}</a></h1>` para que ele redirecione para a página de detalhes da postagem:{% endraw %}
+{% raw %}We want to have a link from a post's title in the post list to the post's detail page. Let's change `<h1><a href="">{{ post.title }}</a></h1>` so that it links to the post's detail page:{% endraw %}
 
-blog/templates/blog/post_list.html
+{% filename %}blog/templates/blog/post_list.html{% endfilename %}
 ```html
 <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
 ```
 
-{% raw %}Tempo para explicar o misterioso `{% url 'blog.views.post_detail' pk=post.pk %}`. Como você pode suspeitar, a notação  `{% %}` significa que estamos usando as tags de template do Django. Desta vez, vamos usar uma que vai criar uma URL para nós!{% endraw %}
+{% raw %}Time to explain the mysterious `{% url 'blog.views.post_detail' pk=post.pk %}`. As you might suspect, the  `{% %}` notation means that we are using Django template tags. This time we will use one that will create a URL for us!{% endraw %}
 
-`blog.views.post_detail` é um caminho para uma *view* `post_detail` que queremos criar. Preste atenção: `blog` é o nome da sua aplicação (o diretório `blog`), `views` vem do nome do arquivo `views.py` e, a última parte - `post_detail` - é o nome da *view*.
+The `blog.views.post_detail` is a path to the *view* `post_detail` that we want to create. Pay attention: `blog` is the name of your application (the directory `blog`), `views` is the name of the file `views.py` and, the last part - `post_detail` - is the name of the *view*.
 
-Agora quando formos para: `http://<<sua_url>>.codeanyapp.com:8080/` teremos um erro (como esperado, já que não temos uma URL ou uma *view* para `post_detail`). Vai se parecer com isso:
+Now when we go to: `http://<<sua_url>>.codeanyapp.com:8080/` we will have an error (as expected, since we do not yet have a URL or a *view* for `post_detail`). It will look like this:
 
 ![NoReverseMatch error](images/no-reverse-match-error.png)
 
 
-## Criando a URL para detalhe da postagem
+## Create a URL to a post's detail
 
 Vamos criar a URL em `urls.py` para a nossa *view* `post_detail`!
 
-Nós queremos que nosso primeiro detalhe de postagem seja exibido através dessa **URL**: http://<<sua_url>>.codeanyapp.com:8080/post/1/
+Nós queremos que nosso primeiro detalhe de postagem seja exibido através dessa **URL**: http://<<your_url>>.codeanyapp.com:8080/post/1/
 
 Vamos criar uma URL no arquivo `blog/urls.py` para direcionar o Django para uma *view* de nome `post_detail`, que irá exibir uma postagem de blog completa. Adicione a linha `url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),` ao arquivo `blog/urls.py`. O arquivo deve ficar dessa forma:
 
