@@ -47,14 +47,14 @@ Now when we go to: `http://<<sua_url>>.codeanyapp.com:8080/` we will have an err
 
 ## Create a URL to a post's detail
 
-Vamos criar a URL em `urls.py` para a nossa *view* `post_detail`!
+Let's create a URL in `urls.py` for our `post_detail` *view*!
 
-Nós queremos que nosso primeiro detalhe de postagem seja exibido através dessa **URL**: http://<<your_url>>.codeanyapp.com:8080/post/1/
+We want our first post's detail to be displayed at this **URL**: http://<<your_url>>.codeanyapp.com:8080/post/1/
 
-Vamos criar uma URL no arquivo `blog/urls.py` para direcionar o Django para uma *view* de nome `post_detail`, que irá exibir uma postagem de blog completa. Adicione a linha `url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),` ao arquivo `blog/urls.py`. O arquivo deve ficar dessa forma:
+Let's make a URL in the `blog/urls.py` file to point Django to a *view* named `post_detail`, that will show an entire blog post. Add the line `url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),` to the `blog/urls.py` file. The file should look like this:
 
-blog/urls.py
-```p
+{% filename %}{{ warning_icon }} blog/urls.py{% endfilename %}
+```python
 from django.conf.urls import url
 from . import views
 
@@ -63,65 +63,66 @@ urlpatterns = [
     url(r'^post/(?P<pk>[0-9]+)/$', views.post_detail, name='post_detail'),
 ```
 
-O trecho ``^post/(?P<pk>\d+)/$`` parece assustador, mas não se preocupe – nós iremos explicar ele para você:
- - ele começa com `^` novamente - "o início".
-- `post/` apenas significa que após o início, a URL deve ter a palavra __post__ e um __/__. Até aqui, tudo bem.
-- `(?P<pk>\d+)` - essa parte é mais complicada. Isso significa que o Django vai pegar tudo que você colocar aqui e transferir para uma view através de uma variável chamada `pk`. `\d` também nos diz que só pode ser um número, não uma letra (tudo entre 0 e 9). `+` significa que precisa existir um ou mais dígitos. Então, algo como `http://<<sua_url>>.codeanyapp.com:8080/post//`, não é válido, mas `http://<<sua_url>>.codeanyapp.com:8080/post/1234567890/` é perfeitamente ok!
-- `/` - então precisamos de um __/__ outra vez.
-- `$` - "o fim"!
+This part ``^post/(?P<pk>\d+)/$`` looks scary, but no worries – we will explain it for you:
+- it starts with `^` again – "the beginning".
+- `post/` just means that after the beginning, the URL should contain the word __post__ and a __/__. So far so good.
+- `(?P<pk>\d+)` – this part is trickier. It means that Django will take everything that you place here and transfer it to a view as a variable called `pk`. `\d` also tells us that it can only be a digit, not a letter (so everything between 0 and 9). `+` means that there needs to be one or more digits there. So something like `http://<<your_url>>.codeanyapp.com:8080/post//` is not valid, but `http://<<your_url>>.codeanyapp.com:8080/post/1234567890/` is perfectly OK!
+- `/` – then we need a __/__ again.
+- `$` – "the end"!
 
-Isso significa que, se você digitar `http://<<sua_url>>.codeanyapp.com:8080/post/5/` em seu navegador, Django vai entender que você está procurando uma *view* chamada `post_detail` e transferir a informação de que `pk` é igual a `5` para aquela *view*.
 
-`pk` é uma abreviação para `primary key` (chave primária). Esse é o nome geralmente usado nos projetos feitos em Django. Mas você pode dar o nome que quiser às variáveis (lembre-se: minúsculas e `_` ao invés de espaços em branco!). Por exemplo em vez de `(?P<pk>\d+)` podemos ter uma variável `post_id`, então esta parte ficaria como: `(?P<post_id>\d+)`.
+That means if you enter `http://<<your_url>>.codeanyapp.com:8080/post/5` into your browser, Django will understand that you are looking for a *view* called `post_detail` and transfer the information that `pk` equals `5` to that *view*.
 
-OK, nós adicionamos um novo padrão de URL ao `blog/urls.py`! Vamos atualizar a página: `http://<<sua_url>>.codeanyapp.com:8000/` Boom! O servidor parou de funcionar novamente. Dê uma olhada no console – como esperado, temos outro erro!
+`pk` is an abbreviation for `primary key`. This is a type of naming convention for Django projects, but you can give the name you wish to the variables (just remember: lower case and `_` instead of blank spaces!). For example, instead of `(?P<pk>\d+)` we can have a variable `post_id`, so this part would look like: `(?P<post_id>\d+)`.
+
+OK, we've added a new URL pattern to `blog/urls.py`! Let's refresh the page: `http://<<sua_url>>.codeanyapp.com:8000/` Boom! The server has stopped running again. Have a look at the console – as expected, there's yet another error!
 
 ![AttributeError](images/attribute-error.png)
 
-Você se lembra qual é o próximo passo? Claro: adicionar uma view!
+Do you remember what the next step is? Of course: adding a view!
 
-## Adicionando a view de detalhe da postagem
+## Add a post's detail view
 
-Desta vez a nossa *view* recebe um parâmetro extra, `pk`. Nossa *view* precisa pegá-la, certo? Então vamos definir nossa função como `def post_detail (request, pk):`. Observe que precisamos usar exatamente o mesmo nome que especificamos em urls (`pk`). Omitir essa variável é errado e resultará em um erro!
+This time our *view* is given an extra parameter, `pk`. Our *view* needs to catch it, right? So we will define our function as `def post_detail(request, pk):`. Note that we need to use exactly the same name as the one we specified in urls (`pk`). Omitting this variable is incorrect and will result in an error!
 
-Agora queremos receber apenas um post do blog. Para isso podemos usar `querysets` como este:
+Now, we want to get one and only one blog post. To do this, we can use `querysets`, like this:
 
-blog/views.py
-```
+{% filename %}{{ warning_icon }} blog/views.py{% endfilename %}
+```python
 def post_detail(request, pk):
     Post.objects.get(pk=pk)
-
 ```
 
-Mas este código tem um problema. Se não houver nenhum `Post` com a `chave primária` (`pk`) fornecida teremos um erro horroroso!
+But this code has a problem. If there is no `Post` with the given `primary key` (`pk`) we will have a super ugly error!
 
 ![DoesNotExist error](images/does-not-exist-error.png)
 
-Não queremos isso! Mas, claro, o Django vem com algo que vai lidar com isso para nós: `get_object_or_404`. Caso não haja nenhum `Post` com o `pk` informado, ele exibirá uma página muito mais agradável (chamada `Page Not Found 404` - página não encontrada).
+We don't want that! But, of course, Django comes with something that will handle that for us: `get_object_or_404`. In case there is no `Post` with the given `pk`, it will display much nicer page, the `Page Not Found 404` page.
 
-![Página não encontrada](images/pagina-nao-encontrada.png)
+![Page not found](images/pagina-nao-encontrada.png)
 
-A boa notícia é que você realmente pode criar sua própria página de `Page not found` e torná-la tão bonita quanto você quiser. Mas isso não é super importante agora, então nós vamos pular essa parte.
+The good news is that you can actually create your own `Page not found` page and make it as pretty as you want. But it's not super important right now, so we will skip it.
 
-Ok, hora de adicionar uma *view* ao nosso arquivo `views.py`!
+OK, time to add a *view* to our `views.py` file!
 
-Devemos abrir `blog/views.py` e adicionar o seguinte código perto das outras linha com `from`:
+We should open `blog/views.py` and add the following code near the other `from` lines:
 
-blog/views.py
-```
+{% filename %}blog/views.py{% endfilename %}
+```python
 from django.shortcuts import render, get_object_or_404
 ```
 
-E no final do arquivo, adicionaremos a nossa *view*:
+And at the end of the file we will add our *view*:
 
-blog/views.py
-```
+{% filename %}blog/views.py{% endfilename %}
+
+```python
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
 ```
 
-Sim. Está na hora de atualizar a página: http://<<sua_url>>.codeanyapp.com:8080/
+Yes. It is time to refresh the page: http://<<your_url>>.codeanyapp.com:8080/
 
 ![Post list view](images/listando-postagens.png)
 
