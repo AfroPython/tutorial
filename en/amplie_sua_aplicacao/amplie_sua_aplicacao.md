@@ -40,7 +40,7 @@ We will start with adding a link inside `blog/templates/blog/post_list.html` fil
 
 The `blog.views.post_detail` is a path to the *view* `post_detail` that we want to create. Pay attention: `blog` is the name of your application (the directory `blog`), `views` is the name of the file `views.py` and, the last part - `post_detail` - is the name of the *view*.
 
-Now when we go to: `http://<<sua_url>>.codeanyapp.com:8080/` we will have an error (as expected, since we do not yet have a URL or a *view* for `post_detail`). It will look like this:
+Now when we go to: `http://<<your_url>>.codeanyapp.com:8080/` we will have an error (as expected, since we do not yet have a URL or a *view* for `post_detail`). It will look like this:
 
 ![NoReverseMatch error](images/no-reverse-match-error.png)
 
@@ -126,19 +126,19 @@ Yes. It is time to refresh the page: http://<<your_url>>.codeanyapp.com:8080/
 
 ![Post list view](images/listando-postagens.png)
 
-Funcionou! Mas o que acontece quando você clica em um link no título do post do blog?
+It worked! But what happens when you click a link in blog post title?
 
 ![TemplateDoesNotExist error](images/pagina-nao-encontrada-detalhe.png)
 
-Ah não! Outro erro! Mas nós já sabemos como lidar com isso, não é? Precisamos adicionar um template!
+Oh no! Another error! But we already know how to deal with it, right? We need to add a template!
 
-## Criação de um template para o detalhe da postagem
+## Create a template for the post details
 
-Vamos criar um arquivo em `blog/templates/blog` chamado `post_detail.html`.
+Let's create a file in `blog/templates/blog` called `post_detail.html`.
 
-Será algo parecido com isto:
+It will look like this:
 
-blog/templates/blog/post_detail.html
+{% filename %}blog/templates/blog/post_detail.html{% endfilename %}
 ```html
 {% extends 'blog/base.html' %}
 
@@ -155,12 +155,12 @@ blog/templates/blog/post_detail.html
 {% endblock %}
 ```
 
-Mais uma vez estamos estendendo `base.html`. No bloco `content` queremos exibir o `published_date` (data de publicação) da postagem (se houver), título e texto. Mas devemos discutir algumas coisas importantes, certo?
+Once again we are extending `base.html`. In the `content` block we want to display a post's published_date (if it exists), title and text. But we should discuss some important things, right?
 
-{% raw %}`{% if ... %} ... {% endif %}` é uma tag de template que podemos usar quando queremos verificar algo (Lembra do `if ... else...` do **capítulo introdução ao Python**?). Neste cenário, queremos verificar se `published_date` de uma postagem não está vazia.{% endraw %}
+{% raw %}`{% if ... %} ... {% endif %}` is a template tag we can use when we want to check something. (Remember `if ... else ..` from __Introduction to Python__ chapter?) In this scenario we want to check if a post's `published_date` is not empty.{% endraw %}
 
-Ok, podemos atualizar nossa página e ver se o  `TemplateDoesNotExist`já se foi.
+OK, we can refresh our page and see if `TemplateDoesNotExist` is gone now.
 
 ![Post detail page](images/detalhe-da-postagem.png)
 
-Yay! Funciona!
+Yay! It works!
