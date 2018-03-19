@@ -75,7 +75,7 @@ That means if you enter `http://<<your_url>>.codeanyapp.com:8080/post/5` into yo
 
 `pk` is an abbreviation for `primary key`. This is a type of naming convention for Django projects, but you can give the name you wish to the variables (just remember: lower case and `_` instead of blank spaces!). For example, instead of `(?P<pk>\d+)` we can have a variable `post_id`, so this part would look like: `(?P<post_id>\d+)`.
 
-OK, we've added a new URL pattern to `blog/urls.py`! Let's refresh the page: `http://<<sua_url>>.codeanyapp.com:8000/` Boom! The server has stopped running again. Have a look at the console – as expected, there's yet another error!
+OK, we've added a new URL pattern to `blog/urls.py`! Let's refresh the page: `http://<<your_url>>.codeanyapp.com:8000/` Boom! The server has stopped running again. Have a look at the console – as expected, there's yet another error!
 
 ![AttributeError](images/attribute-error.png)
 
