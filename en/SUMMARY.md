@@ -83,7 +83,7 @@
   * [Arquivos estáticos no Django](css/estaticos_do_django.md)
   * [Seu primeiro arquivo CSS!](css/primeiro_arquivo_css.md)
 * [Estendendo templates](estendendo_templates/estendendo_templates.md)
-* [Amplie sua aplicação](amplie_sua_aplicacao/amplie_sua_aplicacao.md)
+* [Extend your Application](extend_your_application/extend_your_application.md)
 * [Formulários](formularios/introducao.md)
  * [URLs e Views](formularios/url_e_views.md)
  * [Template](formularios/template.md)
