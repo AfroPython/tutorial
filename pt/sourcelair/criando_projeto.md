@@ -1,10 +1,14 @@
 # Criando um projeto
 
-## Vá para o editor e crie um novo container
+## Vá para o editor e crie um novo projeto
 
-<!-- DOING -->
-<!-- Clique no botão "Editor". Deve abrir o assistente de conexão (Connection Wizard) - se isso não acontecer, você pode encontrá-lo em File/New Connection/Container.
+Ao entrar no editor, no menu da esquerda, clique no símbolo de mais ( + ) para começar a criação do seu projeto. 
+![novo_projeto](novo_projeto.png)
 
-Na janela do Connection Wizard, dê o nome "afropython" a seu projeto e use a caixa de busca (search stack) para pesquisar por python3. Apareceram várias opções, né? Então, para que tudo dê certinho, vamos nos certificar de escolher aquela que diz "Python 3" **E** "Ubuntu 14.04". Ou seja, vamos utilizar um computador que já tem o GNU/Linux Ubuntu instalado, com a versão mais recente do Python. Após selecionar corretamente, clique em "Create" (você pode ter de usar a barra de rolagem para encontrar esse botão, que fica lá embaixo).
+Clique em "from scratch". Isso fará com que o editor inicialize um projeto novo para você. 
 
-![criacao_do_container](criacao_do_container.png) -->
+![comecando_projeto](comecando_projeto.png)
+
+Na janela "Basic", você verá as opções para começar o seu novo projeto. Seleciona "Django". Na parte inferior, insira o nome "AfroPython" para o seu projeto. Clique em "Create" para começar. 
+
+![projeto_django](projeto_django.png)
