@@ -4,7 +4,8 @@
     },
     "plugins": [
         "github@2.0.0",
-        "language-picker"
+        "language-picker",
+        "ga"
     ],
     "pluginsConfig": {
         "github": {
@@ -12,6 +13,9 @@
         },
         "language-picker": {
             "grid-columns": 2
+        },
+        "ga": {
+            "token": "UA-127490902-1"
         }
     }
 }
