@@ -41,8 +41,6 @@
 * [Django, o que é?](django/o_que_e.md)
   * [Por que você precisa de um framework?](django/porque_um_framework.md)
   * [O que acontece quando alguém solicita um site do seu servidor?](django/solicitando_o_site.md)
-* [Instalação do Django](django/instalacao_introducao.md)
-  * [Instalando...](django/instalacao.md)
 * [Seu primeiro projeto Django](django/primeiro_projeto.md)
     * [Configurando](django/configurando.md)
     * [Instalando o banco de dados](django/instalando_banco_de_dados.md)
