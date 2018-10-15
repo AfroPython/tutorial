@@ -14,22 +14,22 @@ Igual a todos os outros arquivos, os arquivos HTML precisam ser armazenados em u
 OK, mas você quer saber com o quê a internet se parece, certo?
 Fizemos um desenho pra você! Veja:
 
-![Internet](../images/internet/internet.png)
+![Internet](internet.png)
 
 Parece uma bagunça, não é? Na verdade é uma rede de máquinas conectadas (os servidores mencionados acima). Centenas de milhares de máquinas! Muitos, muitos quilômetros de cabos por todo o mundo! Para ver o quão complicada a internet é, você pode visitar um site [http://submarinecablemap.com/](http://submarinecablemap.com/) que mostra um mapa com os cabos submarinos. Aqui está uma captura de tela do site:
 
-![Cabos submarinos](../images/internet/internet_conexoes.png)
+![Cabos submarinos](internet_conexoes.png)
 
 Fascinante, não? Mas, obviamente, não é possível ter um cabo que ligue todas as máquinas conectadas na internet. Logo, para chegar em uma máquina (por exemplo aquela onde https://afropython.org está salva), nós precisamos passar uma requisição através de muitas e muitas máquinas diferentes.
 Se parece com isso:
 
-![Requisições](../images/internet/pacotes.png)
+![Requisições](pacotes.png)
 
 Imagine que quando você digita [https://afropython.org](https://afropython.org), você envia uma carta que diz: "Queridas pessoas do AfroPython, eu desejo ver o site afropython.org. Envie pra mim, por favor!"
 
 Sua carta vai para a agência dos correios mais próxima de você. Depois vai para outra que é um pouco mais perto de seu destinatário, depois para outra e outra, até que ela seja entregue ao seu destino. A única diferença é que, se você enviar muitas cartas (*pacotes de dados*) para o mesmo lugar, cada carta pode passar por diferentes agências de correios (roteadores), dependendo de como elas são distribuídas em cada agência.
 
-![Solicitação](../images/internet/solicitacao.png)
+![Solicitação](solicitacao.png)
 
 Sim, é simples assim. Você envia mensagens e espera alguma resposta. Claro, em vez de papel e caneta você usa bytes de dados, mas a ideia é a mesma!
 
