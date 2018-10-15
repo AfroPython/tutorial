@@ -5,12 +5,12 @@ Para começar alguns experimentos, precisamos abrir a nossa interface de linha d
 #### Codeanywhere
 Clique com o botão direito em cima de seu container, depois em SSH Terminal:
 
-![SSH Terminal](../images/linha_de_comando/01_ssh_terminal.png)
+![SSH Terminal](linha_de_comando/01_ssh_terminal.png)
 
 #### Prompt
 Agora você deve ver uma janela preta que está à espera de seus comandos.
 
-![Prompt](../images/linha_de_comando/prompt.png)
+![Prompt](linha_de_comando/prompt.png)
 
 Cada comando será antecedido pelo sinal **$** e um espaço, mas você não precisa digitá-lo. Seu computador fará isso por você :)
 

@@ -83,4 +83,4 @@ Isso é incrível!
 
 > Como nós recentemente usamos a interface de administração do Django, o sistema ainda pensa que nós estamos "logados". Existem algumas situações que poderiam nos levar a estar "deslogados" (fechando o browser, reiniciando o banco de dados, etc.). Se, durante a criação de uma postagem, você perceber que está recebendo erros referentes a falta de um usuário "logado", vá para a página de administração http://<<sua_url>>.codeanyapp.com:8080/admin e faça o login novamente. Isso resolverá o problema temporariamente.
 
-![Erro de login](images/post_create_error.png)
+![Erro de login](post_create_error.png)

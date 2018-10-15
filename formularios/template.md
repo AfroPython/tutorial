@@ -7,7 +7,7 @@ Precisamos criar um arquivo `post_edit.html` na pasta `blog/templates/blog`. Pra
 - Precisamos de um botão `Salvar`. Fazemos isso com um botão HTML: `<button type="submit">Save</button>`
 - E finalmente, depois de abrir a tag `<form ...>` precisamos adicionar um {% raw %}`{% csrf_token %}`{% endraw %}. Isso é muito importante, pois faz com que nosso formulário seja seguro! O Django vai reclamar se você esquecer de adicionar isso e tentar salvar o formulário:
 
-![CSFR Página Proibida](images/csrf2.png)
+![CSFR Página Proibida](csrf2.png)
 
 Beleza, então vamos ver como ficou o HTML `post_edit.html`:
 
@@ -26,7 +26,7 @@ blog/templates/blog/post_edit.html
 
 Hora de atualizar! Há! Seu formulário apareceu!
 
-![Formulário novo](images/new_form2.png)
+![Formulário novo](new_form2.png)
 
 Mas, espere um minuto! Quando você digita alguma coisa nos campos `title` e `text` e tenta salvar, o que acontece?
 

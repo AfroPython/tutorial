@@ -73,11 +73,11 @@ form = PostForm(instance=post)
 
 Ok, vamos testar se funciona! Vamos para a página `post_detail`. Deve haver um botão editar no canto superior direito:
 
-![Botão editar](images/edit_button2.png)
+![Botão editar](edit_button2.png)
 
 Quando você clicar nele você verá o formulário com a nossa postagem:
 
-![Editando o formulário](images/edit_form2.png)
+![Editando o formulário](edit_form2.png)
 
 Sinta-se livre para mudar o título ou o texto e salvar as mudanças!
 

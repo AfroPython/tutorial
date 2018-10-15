@@ -6,8 +6,8 @@ Existem muitos editores diferentes e em grande parte se resume a preferência pe
 
 Para o tutorial, usaremos o editor do Codeanywhere. Para isso, basta criar um novo arquivo, clicando com o botão direito no container e escolhendo a opção “Create File”:
 
-![Criando novo arquivo](../images/editor_de_codigo/novo_arquivo.png)
+![Criando novo arquivo](editor_de_codigo/novo_arquivo.png)
 
 Vai abrir uma janela. Coloque o nome do arquivo e clique em OK:
 
-![Criando novo arquivo](../images/editor_de_codigo/arquivo.png)
+![Criando novo arquivo](editor_de_codigo/arquivo.png)

@@ -43,7 +43,7 @@ Você precisa estar no diretório que contém o arquivo `manage.py` (no diretór
 
 Para acessar o site no navegador, utilize a primeira url que o codeanywhere mostra na página de informação, adicionando a porta 8080 no final da url:
 
-![URL servidor](../images/django/url_server.png)
+![URL servidor](django/url_server.png)
 
 Então, no exemplo, a url fica:
 ```
@@ -54,6 +54,6 @@ O servidor web vai assumir seu prompt de comando até você pará-lo: pode abrir
 
 Parabéns! Você criou seu primeiro site e o executou usando um servidor de web! Não é impressionante?
 
-![Site início](../images/django/servidor_rodando.png)
+![Site início](django/servidor_rodando.png)
 
 Pronto(a) para o próximo passo? Está na hora de criar algum conteúdo!
