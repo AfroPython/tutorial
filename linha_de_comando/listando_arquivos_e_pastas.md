@@ -4,7 +4,7 @@ Digite o seguinte comando:
 
 ```
 $ ls
-afropython
+minhapasta
 ```
 
 Ali está a pasta criada! Vamos entrar nela?

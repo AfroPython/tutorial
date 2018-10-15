@@ -14,7 +14,7 @@ Veja onde você está:
 
 ```
 $ pwd
-/home/cabox/workspace
+/mnt/project
 ```
 
 Agora é hora de excluir o diretório **minhapasta**.
