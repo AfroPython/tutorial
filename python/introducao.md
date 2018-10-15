@@ -8,10 +8,10 @@ Vamos escrever um pouco de código!
 
 Para começar a brincar com Python nós precisamos abrir uma linha de comando no seu computador. Você já deve saber como fazer isso -- você aprendeu isso no capítulo [Introdução à Linha de Comando](../linha_de_comando/introducao.md). Assim que estiver pronto(a), siga as instruções abaixo.
 
-Nós queremos abrir o Python num terminal, então digite python3 no terminal (verifique se está na janela que aparece cabox@box-codeanywhere:$) e tecle Enter.
+Nós queremos abrir o Python num terminal, então digite python3 no terminal (verifique se está na janela que aparece usuario@AfroPython:/mnt/project$) e tecle Enter.
 ```
 $ python3
-Python 3.4.2 (...)
+Python 3.6.5 (...)
 Type "copyright", "credits" or "license" for more information.
 >>>
 ```
