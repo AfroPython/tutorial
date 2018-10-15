@@ -4,15 +4,11 @@
     },
     "plugins": [
         "github@2.0.0",
-        "language-picker",
         "ga"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/AfroPython/tutorial"
-        },
-        "language-picker": {
-            "grid-columns": 2
         },
         "ga": {
             "token": "UA-127490902-1"
