@@ -7,22 +7,25 @@ Vamos abrir `blog/models.py`, remova tudo dele e escreva o código como este:
 ```
 from django.db import models
 from django.utils import timezone
+from django.contrib.auth import get_user_model
 
 class Post(models.Model):
-    author = models.ForeignKey('auth.User')
+    author = models.ForeignKey(
+        get_user_model(), on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     text = models.TextField()
     created_date = models.DateTimeField(
-            default=timezone.now)
+        default=timezone.now)
     published_date = models.DateTimeField(
-            blank=True, null=True)
+        blank=True, null=True)
 
     def publish(self):
-        self.published_date = timezone.now()
+        self.published_date=timezone.now()
         self.save()
 
     def __str__(self):
         return self.title
+
 ```
 > Certifique-se de ter usado dois caracteres `(_)` em cada lado do str. Aqueles caracteres são usados freqüentemente em Python e às vezes os chamamos de `"dunder"` (abreviação de "double-underscore" ou "duplo sublinhado").
 >

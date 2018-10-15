@@ -8,7 +8,7 @@ python3 manage.py makemigrations blog
 Algo parecido com isto deve aparecer para você:
 
 ```
-~/afropython$ python3 manage.py makemigrations blog
+…@AfroPython:/mnt/project$ python3 manage.py makemigrations blog
 Migrations for 'blog':
   0001_initial.py:
   - Create model Post
@@ -21,7 +21,7 @@ python3 manage.py migrate blog
 
 A saída deve ser:
 ```
-~/afropython$ python3 manage.py migrate blog
+…@AfroPython:/mnt/project$ python3 manage.py migrate blog
 Operations to perform:
   Apply all migrations: blog
 Running migrations:
