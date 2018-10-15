@@ -25,7 +25,7 @@ blog/templates/blog/post_list.html
 
 Salve o arquivo e atualize sua página.
 
-![Passo 3](../images/introducao_html/step3.png)
+![Passo 3](introducao_html/step3.png)
 
 Viu como o navegador entendeu que "Blog do AfroPython" é o título da página? Ele interpretou `<title>Blog do AfroPython</title>` e colocou o texto na barra de título do seu navegador (e também será usado para os favoritos e outras coisas mais).
 

@@ -17,7 +17,7 @@ Veja como o nosso site está se parecendo agora: http://0.0.0.0:8080/
 
 > Se ocorrer um erro de `TemplateDoesNotExists` tente reiniciar o seu servidor. Entre na linha de comando, pare o servidor pressionando Ctrl+C (Control seguido da tecla C, juntas) e reinicie-o rodando `python3 manage.py runserver`.
 
-![Passo 1](../images/introducao_html/step1.png)
+![Passo 1](introducao_html/step1.png)
 
 Acabaram-se os erros! Parabéns :) Entretanto, nosso site não mostra nada a não ser uma página em branco. Isso porque o nosso template está vazio. Então precisamos consertar isso.
 Adicione a seguinte linha dentro do template:
@@ -32,7 +32,7 @@ blog/templates/blog/post_list.html
 
 Como nosso site se parece agora? Entre no site ou clique para descobrir: http://0.0.0.0:8080/
 
-![Passo 2](../images/introducao_html/step2.png)
+![Passo 2](introducao_html/step2.png)
 
 Funcionou! Bom trabalho :)
 

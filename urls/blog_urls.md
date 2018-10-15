@@ -21,7 +21,7 @@ Como você pode ver, estamos agora atribuindo uma `view` chamada `post_list` par
 
 Tudo certo? Abra sua página no seu navegador pra ver o resultado.
 
-![AtributteError](../images/urls/url_erro.png)
+![AtributteError](urls/url_erro.png)
 
 Não tem mais "It Works!' mais ein? Não se preocupe, é só uma página de erro, nada a temer! Elas são na verdade muito úteis:
 

@@ -46,7 +46,7 @@ Nós criamos três seções `div` aqui.
 
 Isso nos dá o seguinte efeito:
 
-![Passo 4](../images/introducao_html/step4.png)
+![Passo 4](introducao_html/step4.png)
 
 Yaaay! Mas, até agora, nosso template mostra exatamente __sempre a mesma informação__ - sendo que, anteriormente, nós falávamos sobre templates como uma maneira para exibir informações __diferentes__ em um __mesmo formato__.
 
