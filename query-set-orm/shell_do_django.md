@@ -2,7 +2,7 @@
 Abra o terminal e digite:
 
 ````
-~/afropython$ python3 manage.py shell
+...@AfroPython:/mnt/project$ python3 manage.py shell
 ```
 
 O resultado deve ser:
