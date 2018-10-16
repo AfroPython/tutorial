@@ -54,7 +54,6 @@
 * [URLs](urls/urls.md)
   * [O que é uma URL?](urls/o_que_e_uma_url.md)
   * [Como funcionam as URLs no Django?](urls/como_funcionam_as_urls_em_django.md)
-  * [Regex](urls/regex.md)
   * [Sua primeira URL Django](urls/sua_primeira_url_django.md)
   * [blog.urls](urls/blog_urls.md)
 * [Views](views/views.md)
