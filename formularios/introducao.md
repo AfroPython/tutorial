@@ -82,4 +82,4 @@ blog/templates/blog/base.html
 </html>
 ```
 
-Depois de salvar e recarregar a página `http://<<sua_url>>.codeanyapp.com:8080/` você verá, obviamente, um erro familiar: `NoReverseMatch`, certo?
+Depois de salvar e recarregar sua página, você verá um erro familiar: `NoReverseMatch`, certo?

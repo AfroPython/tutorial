@@ -19,5 +19,5 @@ blog/templates/blog/post_list.html
 Isso não adiciona nenhum arquivo ao seu projeto. O código apenas aponta para arquivos que existem na internet. Apenas siga em frente, abra seu site e atualize a página. Veja como está!
 
 
-![Página usando Bootstrap](bootstrap.png)
+![Página usando Bootstrap](images/bootstrap.png)
 Já parece mais bonito!

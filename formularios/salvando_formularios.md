@@ -77,10 +77,8 @@ def post_new(request):
     return render(request, 'blog/post_edit.html', {'form': form})
 ```
 
-Vamos ver se funciona. Vá para o página `http://<<sua_url>>.codeanyapp.com:8080/post/new/`, adicione um `title` e o `text`, salve... e voilà! O novo blog post é adicionado e nós somos redirecionados para a página de `post_detail`!
+Vamos ver se funciona. Vá para o página `http://<<sua_url>>/post/new/`, adicione um `title` e o `text`, salve... e voilà! O novo blog post é adicionado e nós somos redirecionados para a página de `post_detail`!
 
 Isso é incrível!
 
-> Como nós recentemente usamos a interface de administração do Django, o sistema ainda pensa que nós estamos "logados". Existem algumas situações que poderiam nos levar a estar "deslogados" (fechando o browser, reiniciando o banco de dados, etc.). Se, durante a criação de uma postagem, você perceber que está recebendo erros referentes a falta de um usuário "logado", vá para a página de administração http://<<sua_url>>.codeanyapp.com:8080/admin e faça o login novamente. Isso resolverá o problema temporariamente.
-
-![Erro de login](post_create_error.png)
+> Como nós recentemente usamos a interface de administração do Django, o sistema ainda pensa que nós estamos "logados". Existem algumas situações que poderiam nos levar a estar "deslogados" (fechando o browser, reiniciando o banco de dados, etc.). Se, durante a criação de uma postagem, você perceber que está recebendo erros referentes a falta de um usuário "logado", vá para a página de administração http://<<sua_url>>/admin e faça o login novamente. Isso resolverá o problema temporariamente.

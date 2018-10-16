@@ -39,7 +39,7 @@ blog/templates/blog/post_list.html
 
 `blog.views.post_detail` é um caminho para uma *view* `post_detail` que queremos criar. Preste atenção: `blog` é o nome da sua aplicação (o diretório `blog`), `views` vem do nome do arquivo `views.py` e, a última parte - `post_detail` - é o nome da *view*.
 
-Agora quando formos para: `http://<<sua_url>>.codeanyapp.com:8080/` teremos um erro (como esperado, já que não temos uma URL ou uma *view* para `post_detail`). Vai se parecer com isso:
+Agora quando formos para sua página inicial, teremos um erro (como esperado, já que não temos uma URL ou uma *view* para `post_detail`). Vai se parecer com isso:
 
 ![NoReverseMatch error](images/no-reverse-match-error.png)
 
@@ -48,34 +48,34 @@ Agora quando formos para: `http://<<sua_url>>.codeanyapp.com:8080/` teremos um e
 
 Vamos criar a URL em `urls.py` para a nossa *view* `post_detail`!
 
-Nós queremos que nosso primeiro detalhe de postagem seja exibido através dessa **URL**: http://<<sua_url>>.codeanyapp.com:8080/post/1/
+Nós queremos que nosso primeiro detalhe de postagem seja exibido através dessa **URL**: http://<<sua_url>>/post/1/
 
-Vamos criar uma URL no arquivo `blog/urls.py` para direcionar o Django para uma *view* de nome `post_detail`, que irá exibir uma postagem de blog completa. Adicione a linha `url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),` ao arquivo `blog/urls.py`. O arquivo deve ficar dessa forma:
+Vamos criar uma URL no arquivo `blog/urls.py` para direcionar o Django para uma *view* de nome `post_detail`, que irá exibir uma postagem de blog completa. Adicione a linha `path(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),` ao arquivo `blog/urls.py`. O arquivo deve ficar dessa forma:
 
 blog/urls.py
-```p
-from django.conf.urls import url
-from . import views
+```
+from django.urls import path
+from blog import views
 
 urlpatterns = [
-    url(r'^$', views.post_list),
-    url(r'^post/(?P<pk>[0-9]+)/$', views.post_detail, name='post_detail'),
+    path('', views.post_list),
+    path(r'^post/(?P<pk>[0-9]+)/$', views.post_detail, name='post_detail')
+]
+
 ```
 
 O trecho ``^post/(?P<pk>\d+)/$`` parece assustador, mas não se preocupe – nós iremos explicar ele para você:
  - ele começa com `^` novamente - "o início".
 - `post/` apenas significa que após o início, a URL deve ter a palavra __post__ e um __/__. Até aqui, tudo bem.
-- `(?P<pk>\d+)` - essa parte é mais complicada. Isso significa que o Django vai pegar tudo que você colocar aqui e transferir para uma view através de uma variável chamada `pk`. `\d` também nos diz que só pode ser um número, não uma letra (tudo entre 0 e 9). `+` significa que precisa existir um ou mais dígitos. Então, algo como `http://<<sua_url>>.codeanyapp.com:8080/post//`, não é válido, mas `http://<<sua_url>>.codeanyapp.com:8080/post/1234567890/` é perfeitamente ok!
+- `(?P<pk>\d+)` - essa parte é mais complicada. Isso significa que o Django vai pegar tudo que você colocar aqui e transferir para uma view através de uma variável chamada `pk`. `\d` também nos diz que só pode ser um número, não uma letra (tudo entre 0 e 9). `+` significa que precisa existir um ou mais dígitos. Então, algo como `http://<<sua_url>>/post//`, não é válido, mas `http://<<sua_url>>/post/1234567890/` é perfeitamente ok!
 - `/` - então precisamos de um __/__ outra vez.
 - `$` - "o fim"!
 
-Isso significa que, se você digitar `http://<<sua_url>>.codeanyapp.com:8080/post/5/` em seu navegador, Django vai entender que você está procurando uma *view* chamada `post_detail` e transferir a informação de que `pk` é igual a `5` para aquela *view*.
+Isso significa que, se você digitar `http://<<sua_url>>/post/5/` em seu navegador, Django vai entender que você está procurando uma *view* chamada `post_detail` e transferir a informação de que `pk` é igual a `5` para aquela *view*.
 
 `pk` é uma abreviação para `primary key` (chave primária). Esse é o nome geralmente usado nos projetos feitos em Django. Mas você pode dar o nome que quiser às variáveis (lembre-se: minúsculas e `_` ao invés de espaços em branco!). Por exemplo em vez de `(?P<pk>\d+)` podemos ter uma variável `post_id`, então esta parte ficaria como: `(?P<post_id>\d+)`.
 
-OK, nós adicionamos um novo padrão de URL ao `blog/urls.py`! Vamos atualizar a página: `http://<<sua_url>>.codeanyapp.com:8000/` Boom! O servidor parou de funcionar novamente. Dê uma olhada no console – como esperado, temos outro erro!
-
-![AttributeError](images/attribute-error.png)
+OK, nós adicionamos um novo padrão de URL ao `blog/urls.py`! Vamos atualizar a página: `http://<<sua_url>>` Boom! O servidor parou de funcionar novamente. Dê uma olhada no console – como esperado, temos outro erro!
 
 Você se lembra qual é o próximo passo? Claro: adicionar uma view!
 
@@ -120,7 +120,7 @@ def post_detail(request, pk):
     return render(request, 'blog/post_detail.html', {'post': post})
 ```
 
-Sim. Está na hora de atualizar a página: http://<<sua_url>>.codeanyapp.com:8080/
+Sim. Está na hora de atualizar sua página inicial.
 
 ![Post list view](images/listando-postagens.png)
 

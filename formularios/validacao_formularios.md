@@ -4,6 +4,6 @@ Agora, nós lhe mostraremos como os formulários são legais. A postagem do blog
 
 Tente salvar o formulário sem `title` e `text`. Adivinhe o que vai acontecer!
 
-![Validação de formulário](form_validation2.png)
+![Validação de formulário](validacao.png)
 
 Django está tomando conta da validação de todos os campos de nosso formulário, certificando que estão corretos. Não é incrível?
