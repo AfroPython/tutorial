@@ -33,7 +33,7 @@ Em `blog/urls.py` adicionamos esta linha:
 
 blog/urls.py
 ```python
-    url(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),
+    path(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),
 ```
 
 Nós reutilizaremos o modelo `blog/templates/blog/post_edit.html`, então a última coisa que falta é uma *view*.
@@ -73,11 +73,11 @@ form = PostForm(instance=post)
 
 Ok, vamos testar se funciona! Vamos para a página `post_detail`. Deve haver um botão editar no canto superior direito:
 
-![Botão editar](edit_button2.png)
+![Botão editar](botao_editar.png)
 
 Quando você clicar nele você verá o formulário com a nossa postagem:
 
-![Editando o formulário](edit_form2.png)
+![Editando o formulário](editar.png)
 
 Sinta-se livre para mudar o título ou o texto e salvar as mudanças!
 

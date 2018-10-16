@@ -139,4 +139,4 @@ blog/templates/blog/post_list.html
 
 É isso! Veja se o seu site ainda está funcionando direito :)
 
-> Se ocorrer um erro de `TemplateDoesNotExists`, que diz que não existe nenhum arquivo chamado `blog/base.html` e se você tiver o `runserver` executando no terminal, tenta interrompê-lo (precionando Ctrl+C - o botão Control mais o botão C juntos) e reinicie ele rodando o comando `python3 manage.py runserver 0.0.0.0`.
+> Se ocorrer um erro de `TemplateDoesNotExists`, que diz que não existe nenhum arquivo chamado `blog/base.html`, tente reiniciar o servidor. Abra a Command Pallete pelo ícone no menu lateral, procure por `Restart Server` e aperte Enter.

@@ -8,12 +8,11 @@ Django já sabe onde encontrar os arquivos estáticos para o app padrão "admin"
 
 Fazemos isso através da criação de uma pasta chamada `static` dentro do aplicativo do blog:
 
-    afropython
     ├── blog
     │   ├── migrations
     │   ├── static
     │   └── templates
-    └── mysite
+    └── afropython
 
 
 Django encontrará automaticamente todas as pastas chamadas "static" dentro de qualquer uma das pastas dos seus apps, e será capaz de usar seu conteúdo como arquivos estáticos.

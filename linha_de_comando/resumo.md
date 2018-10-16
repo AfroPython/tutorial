@@ -2,7 +2,7 @@
 
 Aqui vai uma lista de alguns comandos úteis:
 
-| Comando (Windows)|Comando (MacOS/Linux/Codeanywhere)| Descrição      | Exemplo      |
+| Comando (Windows)|Comando (MacOS/Linux/Sourcelair)| Descrição      | Exemplo      |
 |:----------------:|:-------------------:| -------------- |--------------|
 | exit             | exit                | Fecha a janela | **exit**     |
 | cd               | cd                  | Muda a pasta    | **cd teste** |

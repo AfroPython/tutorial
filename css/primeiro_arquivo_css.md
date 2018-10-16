@@ -2,11 +2,10 @@
 
 Vamos criar um arquivo CSS agora, para adicionar seu próprio estilo para sua página da web. Crie um novo diretório chamado `css` dentro de seu diretório `static`. Em seguida, crie um novo arquivo chamado `blog.css` dentro do diretório `css`. Pronto?
 
-    afropython
-    └─── blog
-         └─── static
-              └─── css
-                   └─── blog.css
+    blog
+      └─── static
+         └─── css
+            └─── blog.css
 
 
 Hora de escrever CSS! Abra o arquivo `static/css/blog.css` no seu editor de código.
@@ -79,6 +78,8 @@ blog/templates/blog/post_list.html
 ```
 
 OK, salve o arquivo e atualize o site!
+
+> Dica: se nada acontecer, tente reinicar o servidor. Abra a Command Pallete pelo ícone no menu lateral, procure por `Restart Server` e aperte Enter.
 
 ![Blog com as cores do AfroPython](images/blog-com-cores-afropython.png)
 
