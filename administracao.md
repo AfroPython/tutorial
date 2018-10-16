@@ -6,23 +6,28 @@ from django.contrib import admin
 from .models import Post
 
 admin.site.register(Post)
+
 ```
+Após alterar, salve o arquivo (“Save file”)!
 
 Como você pode ver, nós importamos (incluímos) o modelo Post definido no capítulo anterior. Para tornar nosso modelo visível na página de administração, nós precisamos registrá-lo com: `admin.site.register(Post)`.
 
-OK, hora de olhar para o nosso modelo de Post. Lembre-se de executar `python3 manage.py runserver 0.0.0.0:8080` no console para executar o servidor web. Vá para o navegador e digite o endereço do seu site seguido de `/admin` (`http://<<sua_url>>.codeanyapp.com:8080/admin/`). Você verá uma página de login assim:
+OK, hora de olhar para o nosso modelo de Post. Lembre-se de acessar o ícone na lateral esquerda da tela de novo. Vá no navegador e adicione na URL o /admin. No nosso exemplo vai ficar https://b6sdo2j4.apps.lair.io/admin
+
+Você verá uma página de login assim:
 
 ![Página de login](administracao/admin-login.png)
 
 Para fazer login você precisa criar um superuser - um usuário que possui controle sobre tudo do site. Volte para o terminal e digite `python3 manage.py createsuperuser`, pressione enter e digite seu nome de usuário (caixa baixa, sem espaço), endereço de e-mail e password quando eles forem requisitados. Não se preocupe que você não pode ver a senha que você está digitando - é assim que deve ser. Só digitá-la e pressione 'Enter' para continuar. A saída deve parecer com essa (onde Username e Email devem ser os seus):
 
 ```
-~/afropython$ python3 manage.py createsuperuser
-Username: admin
+…@AfroPython:/mnt/project$ python3 manage.py createsuperuser
+Username (leave blank to use 'www-data'): admin
 Email address: admin@admin.com
-Password:
-Password (again):
+Password: Afropython123
+Password (again): Afropython123
 Superuser created successfully.
+
 ```
 
 Volte para a o navegador e faça login com as credenciais de superuser que você escolheu, você deve visualizar o painel de controle do Django admin.

@@ -13,9 +13,9 @@ Os templates são salvos no diretório `blog/templates/blog`. Então, crie um di
 
 E agora crie o arquivo `post_list.html` (deixe-o em branco por agora) dentro do diretório `blog/templates/blog`.
 
-Veja como o nosso site está se parecendo agora: http://0.0.0.0:8080/
+Veja como o nosso site está se parecendo agora:
 
-> Se ocorrer um erro de `TemplateDoesNotExists` tente reiniciar o seu servidor. Entre na linha de comando, pare o servidor pressionando Ctrl+C (Control seguido da tecla C, juntas) e reinicie-o rodando `python3 manage.py runserver`.
+> Se ocorrer um erro de `TemplateDoesNotExists` tente reiniciar o seu servidor. Abra a Command Pallete pelo ícone no menu lateral, procure por `Restart Server` e aperte Enter.
 
 ![Passo 1](introducao_html/step1.png)
 
@@ -30,7 +30,7 @@ blog/templates/blog/post_list.html
 </html>
 ```
 
-Como nosso site se parece agora? Entre no site ou clique para descobrir: http://0.0.0.0:8080/
+Como nosso site se parece agora? Entre no site para descobrir.
 
 ![Passo 2](introducao_html/step2.png)
 

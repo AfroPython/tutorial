@@ -14,9 +14,9 @@ $
 
 Isso vai colocá-la(o) no prompt de comando.
 
-Nós precisamos criar um novo arquivo para escrever o código, para isso clique com o botão direito em cima de seu container, depois em Create File:
+Nós precisamos criar um novo arquivo para escrever o código, para isso clique no primeiro botão do menu horizontal, depois em Create New File:
 
-![Criar arquivo](salve_o_codigo/create_file.png)
+![Criar arquivo](salve_o_codigo/novo_arquivo.png)
 
 Vamos chamar o arquivo de `python_intro.py` e salvá-lo. Podemos nomear o arquivo de tudo o que quisermos, o importante aqui é ter certeza que o arquivo termina com `py`, isto diz nosso computador que é um `arquivo executável de python` e Python pode executá-lo.
 
@@ -29,7 +29,7 @@ print('Olá, AfroPython!')
 
 Obviamente, você é um(a) desenvolvedor(a) python bastante experiente agora, então sinta-se livre para escrever um código que você aprendeu hoje.
 
-Não esqueça de salvar as modificações no seu arquivo (`File > Save, ou utilize o atalho Ctrl + S`). Com o arquivo salvo, é hora de executá-lo! Usando as habilidades que você aprendeu na seção de linha de comando, use o terminal para chegar na pasta em que seu arquivo foi salvo.
+Não esqueça de salvar as modificações no seu arquivo (`Save File, ou utilize o atalho Ctrl + S`). Com o arquivo salvo, é hora de executá-lo! Usando as habilidades que você aprendeu na seção de linha de comando, use o terminal para chegar na pasta em que seu arquivo foi salvo.
 
 Se você ficar presa, peça ajuda.
 

@@ -5,29 +5,9 @@ Parte deste capítulo é baseado no django-marcador tutorial licenciado sobre Cr
 
 Nós vamos criar um blog simples!
 
-O primeiro passo para criá-lo é começar um novo projeto de Django. Basicamente, isto significa que vamos executar alguns scripts fornecidos pelo Django que irá criar o esqueleto de um projeto Django para nós: um bando de diretórios e arquivos que usaremos mais tarde.
+O primeiro passo para criá-lo é começar um novo projeto de Django. Você já fez isso quando iniciou esse projeto, e todo o esqueleto de um projeto Django foi criado para nós: um bando de diretórios e arquivos que usaremos mais tarde.
 
 Os nomes de alguns arquivos e diretórios são muito importantes para o Django. Não renomeie os arquivos que estamos prestes a criar. Mover para um lugar diferente também não é uma boa idéia. Django precisa manter uma determinada estrutura para ser capaz de encontrar coisas importantes.
-
-> **Nota:** Verifique que você incluiu o ponto (.) no final do comando, é importante porque diz ao script para instalar o Django em seu diretório atual.
-
-No console, você deve executar (lembre-se de não digitar ``~/afropython$``  , OK?):
-
-```
-~/afropython$ django-admin startproject mysite .
-```
-
-`Django-admin` é um script que irá criar os diretórios e arquivos para você. Agora, você deve ter um diretório estrutura que se parece com isso:
-
-```
-afropython
-├───manage.py
-└───mysite
-        settings.py
-        urls.py
-        wsgi.py
-        __init__.py
-```
 
 `manage.py` é um script que ajuda com a gestão do site. Com isso seremos capazes de iniciar um servidor de web no nosso computador sem instalar nada, entre outras coisas.
 

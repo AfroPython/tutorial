@@ -10,7 +10,7 @@ Veja se realmente entramos na pasta:
 
 ```
 $ pwd
-/home/cabox/workspace/minhapasta
+/mnt/project/minhapasta
 ```
 Aqui está!
 
