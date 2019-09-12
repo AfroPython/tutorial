@@ -10,11 +10,11 @@ Depois tecla Enter. Essa é nossa saída:
 
 ```
 $ whoami
-www-data
+user
 ```
 
-Como você pode ver, o terminal só apresentou o nome de usuário, no caso `www-data`.
-Isso acontece pois o nome de usuário do nosso computador ** remoto ** é ** www-data ** .
+Como você pode ver, o terminal só apresentou o nome de usuário, no caso `user`.
+Isso acontece pois o nome de usuário do nosso computador ** remoto ** é ** user ** .
 
 Caso você esteja fazendo esse teste em algum terminal local, a saída do terminal será seu nome de usuário.
 Elegante, né?:)
