@@ -2,7 +2,7 @@
 Abra o terminal e digite:
 
 ````
-...@AfroPython:/mnt/project$ python3 manage.py shell
+(django) user@b3592ed04e17:/projects/afropython$ python3 manage.py shell
 ```
 
 O resultado deve ser:
