@@ -1,6 +1,6 @@
 # Como funcionam as URLs em Django?
 
-Vamos abrir o arquivo `AfroPython/urls.py`, ele deve ser alterado para ficar assim: 
+Vamos abrir o arquivo `afropython/urls.py`, ele deve ser alterado para ficar assim:
 
 ```
 from django.contrib import admin

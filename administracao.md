@@ -1,4 +1,5 @@
 # Administração
+
 Para adicionar, editar e remover postagens que nós criamos usaremos o Django admin. Vamos abrir o arquivo blog/admin.py e substituir seu conteúdo por:
 
 ```
@@ -8,12 +9,11 @@ from .models import Post
 admin.site.register(Post)
 
 ```
-Após alterar, salve o arquivo (“Save file”)!
 
 Como você pode ver, nós importamos (incluímos) o modelo Post definido no capítulo anterior. Para tornar nosso modelo visível na página de administração, nós precisamos registrá-lo com: `admin.site.register(Post)`.
 
 OK, hora de olhar para o nosso modelo de Post. Lembre-se de acessar o ícone na lateral esquerda da tela de novo. Vá no navegador e adicione na URL o /admin. No nosso exemplo vai ficar https://b6sdo2j4.apps.lair.io/admin
-
+
 Você verá uma página de login assim:
 
 ![Página de login](administracao/admin-login.png)

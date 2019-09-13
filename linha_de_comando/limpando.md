@@ -14,7 +14,7 @@ Veja onde você está:
 
 ```
 $ pwd
-/mnt/project
+/projects
 ```
 
 Agora é hora de excluir o diretório **minhapasta**.
