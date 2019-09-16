@@ -2,7 +2,7 @@
 
 Aqui vai uma lista de alguns comandos úteis:
 
-| Comando (Windows)|Comando (MacOS/Linux/Sourcelair)| Descrição      | Exemplo      |
+| Comando (Windows)|Comando (MacOS/Linux/Codenvy)| Descrição      | Exemplo      |
 |:----------------:|:-------------------:| -------------- |--------------|
 | exit             | exit                | Fecha a janela | **exit**     |
 | cd               | cd                  | Muda a pasta    | **cd teste** |
@@ -14,6 +14,6 @@ Aqui vai uma lista de alguns comandos úteis:
 
 Estes são apenas alguns dos poucos comandos que você pode executar em sua linha de comando, mas você não vai usar mais nada do que isto hoje.
 
-Se você estiver curioso, [ss64.com](ss64.com) contém uma referência completa de comandos para todos os sistemas operacionais.
+Se você estiver curioso, [ss64.com](https://ss64.com) contém uma referência completa de comandos para todos os sistemas operacionais.
 
 **Vamos começar? **
