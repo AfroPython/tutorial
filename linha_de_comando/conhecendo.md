@@ -2,8 +2,8 @@
 
 Para começar alguns experimentos, precisamos acessar a linha de comando primeiro.
 
-#### Sourcelair
-No Sourcelair, a linha de comando já está aberta para você, na parte inferior da tua tela. 
+#### Codenvy
+No Codenvy, a linha de comando já está aberta para você, na parte inferior da tua tela. 
 ![SSH Terminal](linha_de_comando/terminal.png)
 
 #### Prompt
