@@ -9,4 +9,4 @@ $ pwd
 
 Provavelmente você vai ver algo parecido na sua máquina. Um vez que você abre a linha de comando você já começa na pasta workspace.
 
-**Nota:** 'pwd' significa 'print working directory', ou, 'imprime diretório de trabalho' em português.
+**Nota:** `pwd` significa **print working directory**, ou, **imprime diretório de trabalho** em português.
