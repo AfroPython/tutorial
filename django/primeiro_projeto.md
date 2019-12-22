@@ -5,7 +5,20 @@ Parte deste capítulo é baseado no django-marcador tutorial licenciado sobre Cr
 
 Nós vamos criar um blog simples!
 
-O primeiro passo para criá-lo é começar um novo projeto de Django. Você já fez isso quando iniciou esse projeto, e todo o esqueleto de um projeto Django foi criado para nós: um bando de diretórios e arquivos que usaremos mais tarde.
+O primeiro passo para criá-lo é começar um novo projeto de Django. Existirá um exemplo de pasta de um projeto em Django criada, porém esse projeto não funcionará do modo como precisamos, então vamos criar um projeto.
+Considerando o ambiente criado para nós, precisamos instalar a biblioteca do Django para executar alguns comandos, então execute o seguinte comando para instalar:
+```
+pip install django --user
+```
+Observação: Dentro do nosso IDE é necessário autenticar com o usuário do ambiente para poder instalar pacotes não existente, então precisamos informar o comando `--user` no nosso comando de instalação do pacote do Django.
+
+Para iniciar um novo projeto, acesse um terminal do IDE e certifique-se que se encontra na pasta `/projects`. Logo após, execute o seguinte comando:
+```
+python -m django startproject afropython
+```
+Após executar a criação do projeto, onde a última instrução `afropython` é o nome escolhido por nós para o nosso projeto Django. Será criada uma pasta com o nome do projeto informado com todo o esqueleto de um projeto Django foi criado para nós: um bando de diretórios e arquivos que usaremos mais tarde.
+
+Entre dentro da pasta do projeto criada usando o comando `cd afropython` e logo após digite `ls` para visualizar seu conteúdo. Observação: Outra forma de consultar o conteúdo do nosso projeto e acessando `View>Explorer`, ou clicando no primeiro ícone do menu lateral esquerdo do IDE ou usando o atalho `CTRL+Shift+e`.
 
 Os nomes de alguns arquivos e diretórios são muito importantes para o Django. Não renomeie os arquivos que estamos prestes a criar. Mover para um lugar diferente também não é uma boa idéia. Django precisa manter uma determinada estrutura para ser capaz de encontrar coisas importantes.
 
