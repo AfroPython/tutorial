@@ -2,7 +2,7 @@
 
 - [Sobre](README.md)
 - [Introdução](introducao.md)
-- [Codenvy](codenvy/codenvy.md)
+- [Github Codespaces](github-codespaces/github-codespaces.md)
   - [O que é o Codenvy](codenvy/o_que_e.md)
   - [Crie uma conta](codenvy/criando_conta.md)
   - [Complete o cadastro](codenvy/complete_o_cadastro.md)
