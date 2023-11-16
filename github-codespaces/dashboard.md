@@ -1,6 +1,13 @@
-# Entramos
+# Criando seu primeiro Codespace
 
-## Agora, precisamos criar uma área de trabalho para o nosso projeto
+## Agora, precisamos criar um Codespace
+
+Vá até o repositório do tutorial do AfroPython no GitHub clicando neste link: .
+
+Você deve ver algo parecido com essa imagem aqui:
+![Repositório do tutorial do AfroPython](repositorio-afropython.png)
+
+---
 
 Na tela do dashboard, clique na opção _**Create Workspace**_ para criar uma nova área de trabalho.
 
